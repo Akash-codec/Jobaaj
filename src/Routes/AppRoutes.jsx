@@ -23,7 +23,7 @@ export const router = createBrowserRouter([
       { path: "/our-blog", element: <Jobs /> },
       { path: "/jobaaj-cares", element: <Jobs /> },
       { path: "/post-job", element: <Jobs /> },
-      { path: "/post-job", element: <Jobs /> },
+      { path: "/careers", element: <Jobs /> },
     ],
   },
   { path: "*", element: <NotFound /> },
