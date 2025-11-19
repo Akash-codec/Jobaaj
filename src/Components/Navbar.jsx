@@ -85,14 +85,14 @@ const JobDropMenu = () => (
           </p>
           <div className="flex flex-col lg:flex-row items-center justify-center gap-3 mt-6">
             <Link
-              to="./jobs"
+              to="/jobs"
               className="bg-[#377dff] text-white font-semibold px-4 py-2 rounded-lg shadow hover:translate-y-1 hover:bg-gray-200 transition flex items-center justify-center"
             >
               All Jobs <ChevronRight size={16} className="inline-block" />
             </Link>
 
             <Link
-              to="./drop-cv"
+              to="/drop-cv"
               className="text-white font-semibold px-4 py-2 rounded-lg shadow bg-linear-to-r from-[#8c53ff] to-[#367cff] hover:translate-y-1 hover:bg-gray-200 transition flex items-center justify-center"
             >
               <StickyNote size={16} className="inline-block mr-2" />
@@ -151,25 +151,25 @@ const ServicesDropMenu = () => (
         </h3>
         <div className="flex flex-col gap-3 text-sm">
           <Link
-            to="./jobseeker-services"
+            to="/jobseeker-services"
             className="hover:bg-gray-200 px-2 py-1 rounded"
           >
             All Jobseeker Services
           </Link>
           <Link
-            to="./placement-assistance"
+            to="/placement-assistance"
             className="hover:bg-gray-200 px-2 py-1 rounded"
           >
             Placement Assistance
           </Link>
           <Link
-            to="./resume-writing"
+            to="/resume-writing"
             className="hover:bg-gray-200 px-2 py-1 rounded"
           >
             Resume Writing
           </Link>
           <Link
-            to="./ats-checker"
+            to="/ats-checker"
             className="hover:bg-gray-200 px-2 py-1 rounded"
           >
             ATS Resume Checker
@@ -183,25 +183,25 @@ const ServicesDropMenu = () => (
         </h3>
         <div className="flex flex-col gap-3 text-sm">
           <Link
-            to="./recruter-branding"
+            to="/recruter-branding"
             className="hover:bg-gray-200 px-2 py-1 rounded"
           >
             Recruter Branding
           </Link>
           <Link
-            to="./job-posting"
+            to="/job-posting"
             className="hover:bg-gray-200 px-2 py-1 rounded"
           >
             Job Posting
           </Link>
           <Link
-            to="./candidate-pool"
+            to="/candidate-pool"
             className="hover:bg-gray-200 px-2 py-1 rounded"
           >
             Candidate Pool
           </Link>
           <Link
-            to="./consultancy"
+            to="/consultancy"
             className="hover:bg-gray-200 px-2 py-1 rounded"
           >
             Consultancy
@@ -220,17 +220,17 @@ const OthersDropMenu = () => (
         Quick Link
       </h3>
       <div className="flex flex-col gap-3 text-sm">
-        <Link to="./about-us" className="hover:bg-gray-200 px-2 py-1 rounded">
+        <Link to="/about-us" className="hover:bg-gray-200 px-2 py-1 rounded">
           About Us
         </Link>
-        <Link to="./contact-us" className="hover:bg-gray-200 px-2 py-1 rounded">
+        <Link to="/contact-us" className="hover:bg-gray-200 px-2 py-1 rounded">
           Contact Us
         </Link>
-        <Link to="./our-blog" className="hover:bg-gray-200 px-2 py-1 rounded">
+        <Link to="/our-blog" className="hover:bg-gray-200 px-2 py-1 rounded">
           Our Blog
         </Link>
         <Link
-          to="./jobaaj-cares"
+          to="/jobaaj-cares"
           className="hover:bg-gray-200 px-2 py-1 rounded"
         >
           Jobaaj Cares
@@ -264,7 +264,7 @@ const Navbar = () => {
           </button>
           <Link to="/">
             <img
-              src="./Navbar/logoNew.webp"
+              src="/Navbar/logoNew.webp"
               alt="Logo"
               className="w-20 h-auto"
             />
@@ -326,7 +326,7 @@ const Navbar = () => {
 
           {/* Post Jobs */}
           <Link
-            to="./post-job"
+            to="/post-job"
             className="font-semibold border-b-4 border-[#fae4cc] px-3 pb-1 rounded"
           >
             Post Jobs
@@ -364,7 +364,7 @@ const Navbar = () => {
 
           {/* Clients */}
           <Link
-            to="./careers"
+            to="/careers"
             className="bg-[#377dff] text-white px-5 py-1.5 rounded-full hover:bg-[#0f09c8] hover:translate-y-1 hover:shadow-2xl transition"
           >
             Our Clients Openings
@@ -397,7 +397,7 @@ const Navbar = () => {
           }`}
         >
           <div className="flex items-center justify-between px-8 pt-6">
-            <img src="./Navbar/logoNew.webp" className="w-20" />
+            <img src="/Navbar/logoNew.webp" className="w-20" />
             <button onClick={() => setMobileMenu(false)}>
               <X size={28} className="text-gray-500" />
             </button>
@@ -407,7 +407,7 @@ const Navbar = () => {
             {/* Mobile Jobs */}
             <div className="py-3">
               <Link
-                to="./jobs"
+                to="/jobs"
                 className="flex items-center justify-between cursor-pointer"
                 onClick={() => setMobileJobs(!mobileJobs)}
               >
@@ -427,7 +427,7 @@ const Navbar = () => {
 
             {/* Drop CV */}
             <Link
-              to="./drop-cv"
+              to="/drop-cv"
               className="py-3 flex items-center gap-2 hover:bg-gray-200 px-2 rounded"
             >
               <StickyNote size={20} color="#538fff" /> Drop CV
