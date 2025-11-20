@@ -84,7 +84,7 @@ export function LoginForm({ className, ...props }) {
                 <div className="text-base">
                   Don&apos;t have an account? Sign up as
                 </div>
-                <div className="flex item-center gap-2 mt-4 text-base">
+                <div className="flex item-center justify-center gap-2 mt-4 mx-auto text-base">
                   <Link className="flex gap-2 border border-[#377dff] rounded-full py-2 px-6 items-center text-[#377dff]">
                     <User stroke="#377dff" size={16} />
                     Jobseeker
