@@ -12,6 +12,7 @@ import {
   StickyNote,
 } from "lucide-react";
 import { Link } from "react-router-dom";
+import { LoginForm } from "./login-form";
 
 const categories = [
   "Taxation",
@@ -245,6 +246,7 @@ const Navbar = () => {
   const [openJobs, setOpenJobs] = useState(false);
   const [openServices, setOpenServices] = useState(false);
   const [openOthers, setOpenOthers] = useState(false);
+  const [openlogin, setOpenLogin] = useState(false);
 
   const [mobileMenu, setMobileMenu] = useState(false);
   const [mobileJobs, setMobileJobs] = useState(false);
@@ -279,7 +281,13 @@ const Navbar = () => {
           >
             Jobs <BriefcaseBusiness size={20} strokeWidth={1.5} />
           </Link>
-          <Link to="">
+          <Link
+            to=""
+            onClick={() => {
+              setOpenLogin(true);
+              setMobileMenu(false);
+            }}
+          >
             <CircleUserRound size={32} strokeWidth={1.5} color="#377dff" />
           </Link>
         </div>
@@ -356,7 +364,10 @@ const Navbar = () => {
 
           {/* Login */}
           <Link
-            to="#"
+            to=""
+            onClick={() => {
+              setOpenLogin(true);
+            }}
             className="border px-5 py-1.5 rounded-full text-[#377dff] border-[#377dff] font-medium hover:bg-[#377dff] hover:text-white"
           >
             Login / Register
@@ -476,12 +487,58 @@ const Navbar = () => {
 
           {/* Bottom auth buttons */}
           <div className="w-9/10 mx-auto p-4 flex flex-col gap-2">
-            <Link className="bg-[#377dff] text-white py-2 text-center rounded-lg hover:bg-gray-200">
+            <Link
+              className="bg-[#377dff] text-white py-2 text-center rounded-lg hover:bg-gray-200"
+              onClick={() => {
+                setOpenLogin(true);
+                setMobileMenu(false);
+              }}
+            >
               Log In
             </Link>
-            <Link className="border border-[#377dff] text-[#377dff] py-2 text-center rounded-lg hover:bg-gray-200">
+            <Link
+              className="border border-[#377dff] text-[#377dff] py-2 text-center rounded-lg hover:bg-gray-200"
+              onClick={() => {
+                setOpenLogin(true);
+                setMobileMenu(false);
+              }}
+            >
               Sign Up
             </Link>
+          </div>
+        </div>
+      </div>
+
+      {/* login menu */}
+      <div
+        className={`fixed inset-0 bg-black/40 z-50 transition-opacity duration-300 ${
+          openlogin
+            ? "opacity-100 pointer-events-auto"
+            : "opacity-0 pointer-events-none"
+        }`}
+      >
+        <div
+          className={`fixed right-0 top-0 h-full w-9/10 md:w-9/20 lg:w-7/20 bg-white rounded-l-xl transition-transform duration-300 ${
+            openlogin ? "translate-x-0" : "translate-x-full"
+          }`}
+        >
+          <div className="h-full w-full">
+            <div className="flex items-center justify-end px-8 pt-5">
+              <button onClick={() => setOpenLogin(false)}>
+                <X size={28} className="text-gray-500" />
+              </button>
+            </div>
+            <div className="flex flex-col items-center my-8">
+              <h3 className="text-xl font-semibold space-y-2 tracking-wide leading-7.5">
+                Login to Jobaaj
+              </h3>
+              <p className="text-gray-500 leading-6">
+                Login to manage your account
+              </p>
+            </div>
+            <div className="max-w-9/10 mx-auto">
+              <LoginForm/>
+            </div>
           </div>
         </div>
       </div>
