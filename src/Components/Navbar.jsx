@@ -403,7 +403,7 @@ const Navbar = () => {
         }`}
       >
         <div
-          className={`fixed left-0 top-0 h-full w-4/5 md:w-9/20 bg-white rounded-r-xl transition-transform duration-300 ${
+          className={`fixed left-0 top-0 h-screen w-4/5 md:w-9/20 bg-white rounded-r-xl overflow-x-scroll overflow-y-hidden transition-transform duration-300 ${
             mobileMenu ? "translate-x-0" : "-translate-x-full"
           }`}
         >
@@ -414,9 +414,10 @@ const Navbar = () => {
             </button>
           </div>
 
-          <nav className="p-8 h-3/4 text-[#2b3b62] overflow-scroll">
+          <div className="flex flex-col h-[calc(100vh-84px)] py-2 justify-between">
+            <nav className="p-8 h-3/4 text-[#2b3b62] overflow-scroll">
             {/* Mobile Jobs */}
-            <div className="py-3">
+            <div>
               <Link
                 to="/jobs"
                 className="flex items-center justify-between cursor-pointer"
@@ -505,6 +506,7 @@ const Navbar = () => {
             >
               Sign Up
             </Link>
+          </div>
           </div>
         </div>
       </div>
