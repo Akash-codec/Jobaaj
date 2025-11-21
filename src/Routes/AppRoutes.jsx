@@ -3,6 +3,7 @@ import App from "../App";
 import Jobs from "../pages/Jobs";
 import Home from "../pages/Home";
 import NotFound from "../pages/NotFound";
+import AllJobSheeker from "../pages/AllJobSheeker";
 
 export const router = createBrowserRouter([
   {
@@ -12,7 +13,7 @@ export const router = createBrowserRouter([
       { path: "/", element: <Home /> },
       { path: "/jobs", element: <Jobs /> },
       { path: "/drop-cv", element: <Jobs /> },
-      { path: "/jobseeker-services", element: <Jobs /> },
+      { path: "/jobseeker-services", element: <AllJobSheeker /> },
       { path: "/placement-assistance", element: <Jobs /> },
       { path: "/ats-checker", element: <Jobs /> },
       { path: "/recruter-branding", element: <Jobs /> },
