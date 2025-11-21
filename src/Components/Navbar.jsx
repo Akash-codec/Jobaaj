@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useContext } from "react";
 import {
   Menu,
   SquareMenu,
@@ -10,9 +10,12 @@ import {
   Search,
   CircleDollarSign,
   StickyNote,
+  User,
+  Building,
 } from "lucide-react";
 import { Link } from "react-router-dom";
 import { LoginForm } from "./login-form";
+import { UIContext } from "../Context/UIContext";
 
 const categories = [
   "Taxation",
@@ -48,11 +51,7 @@ const Dropdown = ({ open, mobile, center, children }) => {
           lg:absolute lg:top-full lg:z-40
           transition-all duration-300 origin-top
           ${center ? "left-0 -translate-x-1/6" : "left-0"}
-          ${
-            open
-              ? "opacity-100 scale-y-100"
-              : "opacity-0 scale-y-0 pointer-events-none"
-          }
+          ${open ? "opacity-100 scale-y-100" : "opacity-0 scale-y-0 pointer-events-none"}
         `}
       >
         {children}
@@ -113,7 +112,7 @@ const JobDropMenu = () => (
             <Link
               key={cat}
               to=""
-              className=" hover:bg-gray-200 transition text-left px-2 py-1 rounded"
+              className="hover:bg-gray-200 transition text-left px-2 py-1 rounded"
             >
               {cat}
             </Link>
@@ -131,7 +130,7 @@ const JobDropMenu = () => (
             <Link
               key={city}
               to=""
-              className=" hover:bg-gray-200 transition text-left px-2 py-1 rounded"
+              className="hover:bg-gray-200 transition text-left px-2 py-1 rounded"
             >
               Jobs in {city}
             </Link>
@@ -151,28 +150,16 @@ const ServicesDropMenu = () => (
           Jobseeker Services
         </h3>
         <div className="flex flex-col gap-3 text-sm">
-          <Link
-            to="/jobseeker-services"
-            className="hover:bg-gray-200 px-2 py-1 rounded"
-          >
+          <Link to="/jobseeker-services" className="hover:bg-gray-200 px-2 py-1 rounded">
             All Jobseeker Services
           </Link>
-          <Link
-            to="/placement-assistance"
-            className="hover:bg-gray-200 px-2 py-1 rounded"
-          >
+          <Link to="/placement-assistance" className="hover:bg-gray-200 px-2 py-1 rounded">
             Placement Assistance
           </Link>
-          <Link
-            to="/resume-writing"
-            className="hover:bg-gray-200 px-2 py-1 rounded"
-          >
+          <Link to="/resume-writing" className="hover:bg-gray-200 px-2 py-1 rounded">
             Resume Writing
           </Link>
-          <Link
-            to="/ats-checker"
-            className="hover:bg-gray-200 px-2 py-1 rounded"
-          >
+          <Link to="/ats-checker" className="hover:bg-gray-200 px-2 py-1 rounded">
             ATS Resume Checker
           </Link>
         </div>
@@ -183,28 +170,16 @@ const ServicesDropMenu = () => (
           Recruiter Services
         </h3>
         <div className="flex flex-col gap-3 text-sm">
-          <Link
-            to="/recruter-branding"
-            className="hover:bg-gray-200 px-2 py-1 rounded"
-          >
+          <Link to="/recruter-branding" className="hover:bg-gray-200 px-2 py-1 rounded">
             Recruter Branding
           </Link>
-          <Link
-            to="/job-posting"
-            className="hover:bg-gray-200 px-2 py-1 rounded"
-          >
+          <Link to="/job-posting" className="hover:bg-gray-200 px-2 py-1 rounded">
             Job Posting
           </Link>
-          <Link
-            to="/candidate-pool"
-            className="hover:bg-gray-200 px-2 py-1 rounded"
-          >
+          <Link to="/candidate-pool" className="hover:bg-gray-200 px-2 py-1 rounded">
             Candidate Pool
           </Link>
-          <Link
-            to="/consultancy"
-            className="hover:bg-gray-200 px-2 py-1 rounded"
-          >
+          <Link to="/consultancy" className="hover:bg-gray-200 px-2 py-1 rounded">
             Consultancy
           </Link>
         </div>
@@ -230,10 +205,7 @@ const OthersDropMenu = () => (
         <Link to="/our-blog" className="hover:bg-gray-200 px-2 py-1 rounded">
           Our Blog
         </Link>
-        <Link
-          to="/jobaaj-cares"
-          className="hover:bg-gray-200 px-2 py-1 rounded"
-        >
+        <Link to="/jobaaj-cares" className="hover:bg-gray-200 px-2 py-1 rounded">
           Jobaaj Cares
         </Link>
       </div>
@@ -243,33 +215,35 @@ const OthersDropMenu = () => (
 
 /* NAVBAR */
 const Navbar = () => {
-  const [openJobs, setOpenJobs] = useState(false);
-  const [openServices, setOpenServices] = useState(false);
-  const [openOthers, setOpenOthers] = useState(false);
-  const [openlogin, setOpenLogin] = useState(false);
-
-  const [mobileMenu, setMobileMenu] = useState(false);
-  const [mobileJobs, setMobileJobs] = useState(false);
-  const [mobileServices, setMobileServices] = useState(false);
-  const [mobileOthers, setMobileOthers] = useState(false);
+  const {
+    openJobs,
+    setOpenJobs,
+    openServices,
+    setOpenServices,
+    openOthers,
+    setOpenOthers,
+    openlogin,
+    setOpenLogin,
+    mobileMenu,
+    setMobileMenu,
+    mobileJobs,
+    setMobileJobs,
+    mobileServices,
+    setMobileServices,
+    mobileOthers,
+    setMobileOthers,
+  } = useContext(UIContext);
 
   return (
-    <header className="w-full bg-white fixed top-0 pt-2 z-50 shadow-sm">
+    <header className="w-full bg-white sticky top-0 pt-2 z-50 shadow-sm">
       <div className="container max-w-6xl mx-auto flex items-center justify-between min-h-[72px]">
         {/* Mobile hamburger */}
         <div className="pl-3 flex items-center gap-4">
-          <button
-            className="lg:hidden text-3xl"
-            onClick={() => setMobileMenu(true)}
-          >
+          <button className="lg:hidden text-3xl" onClick={() => setMobileMenu(true)}>
             <SquareMenu size={36} color="#99a3b0" />
           </button>
           <Link to="/">
-            <img
-              src="/Navbar/logoNew.webp"
-              alt="Logo"
-              className="w-20 h-auto"
-            />
+            <img src="/Navbar/logoNew.webp" alt="Logo" className="w-20 h-auto" />
           </Link>
         </div>
 
@@ -293,25 +267,25 @@ const Navbar = () => {
         </div>
 
         {/* Desktop navbar */}
-        <nav className="hidden lg:flex items-center gap-8">
+        <nav className="hidden lg:flex items-center gap-4 pr-2">
           {/* Find Jobs */}
-          <div
+          <Link
+            to="/jobs"
             className="relative"
             onMouseEnter={() => setOpenJobs(true)}
             onMouseLeave={() => setOpenJobs(false)}
+            onClick={() => {
+              setOpenJobs(false);
+            }}
           >
             <button className="px-3 flex items-center gap-1">
               <span>Find Jobs</span>
-              <ChevronDown
-                className={`transition-transform ${
-                  openJobs ? "rotate-180" : ""
-                }`}
-              />
+              <ChevronDown className={`transition-transform ${openJobs ? "rotate-180" : ""}`} />
             </button>
             <Dropdown open={openJobs} center>
               <JobDropMenu />
             </Dropdown>
-          </div>
+          </Link>
 
           {/* Services */}
           <div
@@ -321,11 +295,7 @@ const Navbar = () => {
           >
             <button className="px-3 flex items-center gap-1">
               <span>Services</span>
-              <ChevronDown
-                className={`transition-transform ${
-                  openServices ? "rotate-180" : ""
-                }`}
-              />
+              <ChevronDown className={`transition-transform ${openServices ? "rotate-180" : ""}`} />
             </button>
             <Dropdown open={openServices}>
               <ServicesDropMenu />
@@ -333,10 +303,7 @@ const Navbar = () => {
           </div>
 
           {/* Post Jobs */}
-          <Link
-            to="/post-job"
-            className="font-semibold border-b-4 border-[#fae4cc] px-3 pb-1 rounded"
-          >
+          <Link to="/post-job" className="font-semibold border-b-4 border-[#fae4cc] px-3 py-2 rounded">
             Post Jobs
             <span className="ml-1 border border-blue-500 text-blue-500 text-xs px-2 py-0.5 rounded-full">
               Free
@@ -351,11 +318,7 @@ const Navbar = () => {
           >
             <button className="px-3 flex items-center gap-1">
               <span>Others</span>
-              <ChevronDown
-                className={`transition-transform ${
-                  openOthers ? "rotate-180" : ""
-                }`}
-              />
+              <ChevronDown className={`transition-transform ${openOthers ? "rotate-180" : ""}`} />
             </button>
             <Dropdown open={openOthers}>
               <OthersDropMenu />
@@ -363,15 +326,14 @@ const Navbar = () => {
           </div>
 
           {/* Login */}
-          <Link
-            to=""
+          <div
             onClick={() => {
               setOpenLogin(true);
             }}
             className="border px-5 py-1.5 rounded-full text-[#377dff] border-[#377dff] font-medium hover:bg-[#377dff] hover:text-white"
           >
             Login / Register
-          </Link>
+          </div>
 
           {/* Clients */}
           <Link
@@ -383,32 +345,21 @@ const Navbar = () => {
         </nav>
       </div>
 
-      {/* Premium Banner */}
-      <div className="bg-[#0e08c7] max-h-[60px] text-white text-center py-3 flex items-center justify-center gap-5 flex-wrap">
-        <p className="text-[22px] ">Placement Guarantee Plan</p>
-        <Link
-          to=""
-          className="bg-[#ed4c78] text-white px-3 py-1.5 rounded-full hover:bg-[#ed4c78]/90 hover:-translate-y-1 transition"
-        >
-          Take a look <ChevronRight size={20} className="inline-block" />
-        </Link>
-      </div>
-
       {/* Mobile menu */}
       <div
         className={`fixed inset-0 bg-black/40 z-50 transition-opacity duration-300 ${
-          mobileMenu
-            ? "opacity-100 pointer-events-auto"
-            : "opacity-0 pointer-events-none"
+          mobileMenu ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
         }`}
       >
         <div
-          className={`fixed left-0 top-0 h-screen w-4/5 md:w-9/20 bg-white rounded-r-xl overflow-x-scroll overflow-y-hidden transition-transform duration-300 ${
+          className={`fixed left-0 top-0 h-[100vh-82] w-4/5 md:w-9/20 bg-white rounded-r-xl overflow-x-scroll overflow-y-hidden transition-transform duration-300 ${
             mobileMenu ? "translate-x-0" : "-translate-x-full"
           }`}
         >
           <div className="flex items-center justify-between px-8 pt-6">
-            <img src="/Navbar/logoNew.webp" className="w-20" />
+            <Link to="/" onClick={() => setMobileMenu(false)}>
+              <img src="/Navbar/logoNew.webp" className="w-20" />
+            </Link>
             <button onClick={() => setMobileMenu(false)}>
               <X size={28} className="text-gray-500" />
             </button>
@@ -416,97 +367,93 @@ const Navbar = () => {
 
           <div className="flex flex-col h-[calc(100vh-84px)] py-2 justify-between">
             <nav className="p-8 h-3/4 text-[#2b3b62] overflow-scroll">
-            {/* Mobile Jobs */}
-            <div>
+
+              {/* Mobile Jobs */}
+              <div className="py-3">
+                <Link
+                  to="/jobs"
+                  className="flex items-center justify-between cursor-pointer"
+                  onClick={() => setMobileJobs(!mobileJobs)}
+                >
+                  <span className="flex items-center gap-2">
+                    <Search size={20} color="#538fff" /> Find Jobs
+                  </span>
+                  <ChevronDown
+                    className={`transition-transform ${mobileJobs ? "rotate-180" : ""}`}
+                  />
+                </Link>
+
+                <Dropdown open={mobileJobs} mobile>
+                  <JobDropMenu />
+                </Dropdown>
+              </div>
+
+              {/* Drop CV */}
               <Link
-                to="/jobs"
-                className="flex items-center justify-between cursor-pointer"
-                onClick={() => setMobileJobs(!mobileJobs)}
+                to="/drop-cv"
+                className="py-3 flex items-center gap-2 hover:bg-gray-200 px-2 rounded"
               >
-                <span className="flex items-center gap-2">
-                  <Search size={20} color="#538fff" /> Find Jobs
-                </span>
-                <ChevronDown
-                  className={`transition-transform ${
-                    mobileJobs ? "rotate-180" : ""
-                  }`}
-                />
+                <StickyNote size={20} color="#538fff" /> Drop CV
               </Link>
-              <Dropdown open={mobileJobs} mobile>
-                <JobDropMenu />
-              </Dropdown>
-            </div>
 
-            {/* Drop CV */}
-            <Link
-              to="/drop-cv"
-              className="py-3 flex items-center gap-2 hover:bg-gray-200 px-2 rounded"
-            >
-              <StickyNote size={20} color="#538fff" /> Drop CV
-            </Link>
-
-            {/* Mobile Services */}
-            <div className="py-3">
-              <div
-                className="flex items-center justify-between cursor-pointer"
-                onClick={() => setMobileServices(!mobileServices)}
-              >
-                <span className="flex items-center gap-2">
-                  <CircleDollarSign size={20} color="#538fff" /> Services
-                </span>
-                <ChevronDown
-                  className={`transition-transform ${
-                    mobileServices ? "rotate-180" : ""
-                  }`}
-                />
+              {/* Mobile Services */}
+              <div className="py-3">
+                <div
+                  className="flex items-center justify-between cursor-pointer"
+                  onClick={() => setMobileServices(!mobileServices)}
+                >
+                  <span className="flex items-center gap-2">
+                    <CircleDollarSign size={20} color="#538fff" /> Services
+                  </span>
+                  <ChevronDown
+                    className={`transition-transform ${mobileServices ? "rotate-180" : ""}`}
+                  />
+                </div>
+                <Dropdown open={mobileServices} mobile>
+                  <ServicesDropMenu />
+                </Dropdown>
               </div>
-              <Dropdown open={mobileServices} mobile>
-                <ServicesDropMenu />
-              </Dropdown>
-            </div>
 
-            {/* Mobile Others */}
-            <div className="py-3">
-              <div
-                className="flex items-center justify-between cursor-pointer"
-                onClick={() => setMobileOthers(!mobileOthers)}
-              >
-                <span className="flex items-center gap-2">
-                  <Menu size={20} color="#538fff" /> Other
-                </span>
-                <ChevronDown
-                  className={`transition-transform ${
-                    mobileOthers ? "rotate-180" : ""
-                  }`}
-                />
+              {/* Mobile Others */}
+              <div className="py-3">
+                <div
+                  className="flex items-center justify-between cursor-pointer"
+                  onClick={() => setMobileOthers(!mobileOthers)}
+                >
+                  <span className="flex items-center gap-2">
+                    <Menu size={20} color="#538fff" /> Other
+                  </span>
+                  <ChevronDown
+                    className={`transition-transform ${mobileOthers ? "rotate-180" : ""}`}
+                  />
+                </div>
+                <Dropdown open={mobileOthers} mobile>
+                  <OthersDropMenu />
+                </Dropdown>
               </div>
-              <Dropdown open={mobileOthers} mobile>
-                <OthersDropMenu />
-              </Dropdown>
-            </div>
-          </nav>
+            </nav>
 
-          {/* Bottom auth buttons */}
-          <div className="w-9/10 mx-auto p-4 flex flex-col gap-2">
-            <Link
-              className="bg-[#377dff] text-white py-2 text-center rounded-lg hover:bg-gray-200"
-              onClick={() => {
-                setOpenLogin(true);
-                setMobileMenu(false);
-              }}
-            >
-              Log In
-            </Link>
-            <Link
-              className="border border-[#377dff] text-[#377dff] py-2 text-center rounded-lg hover:bg-gray-200"
-              onClick={() => {
-                setOpenLogin(true);
-                setMobileMenu(false);
-              }}
-            >
-              Sign Up
-            </Link>
-          </div>
+            {/* Bottom auth buttons */}
+            <div className="w-9/10 mx-auto p-4 flex flex-col gap-2">
+              <div
+                className="bg-[#377dff] text-white py-2 text-center rounded-lg hover:bg-gray-200"
+                onClick={() => {
+                  setOpenLogin(true);
+                  setMobileMenu(false);
+                }}
+              >
+                Log In
+              </div>
+              <div
+                className="border border-[#377dff] text-[#377dff] py-2 text-center rounded-lg hover:bg-gray-200"
+                onClick={() => {
+                  setOpenLogin(true);
+                  setMobileMenu(false);
+                }}
+              >
+                Sign Up
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -514,9 +461,7 @@ const Navbar = () => {
       {/* login menu */}
       <div
         className={`fixed inset-0 bg-black/40 z-50 transition-opacity duration-300 ${
-          openlogin
-            ? "opacity-100 pointer-events-auto"
-            : "opacity-0 pointer-events-none"
+          openlogin ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
         }`}
       >
         <div
@@ -534,12 +479,29 @@ const Navbar = () => {
               <h3 className="text-xl font-semibold space-y-2 tracking-wide leading-7.5">
                 Login to Jobaaj
               </h3>
-              <p className="text-gray-500 leading-6">
-                Login to manage your account
-              </p>
+              <p className="text-gray-500 leading-6">Login to manage your account</p>
             </div>
             <div className="max-w-9/10 mx-auto">
-              <LoginForm/>
+              <LoginForm />
+            </div>
+            <div className="text-base text-center text-gra">Don&apos;t have an account? Sign up as</div>
+            <div className="flex item-center justify-center gap-2 mt-4 mx-auto text-base">
+              <Link
+                to="/signup"
+                onClick={() => setOpenLogin(false)}
+                className="flex gap-2 border border-[#377dff] rounded-full py-2 px-6 items-center text-[#377dff]"
+              >
+                <User stroke="#377dff" size={16} />
+                Jobseeker
+              </Link>
+              <Link
+                to="/employer-signup"
+                onClick={() => setOpenLogin(false)}
+                className="flex gap-2 border border-[#377dff] rounded-full py-2 px-6 items-center text-[#377dff]"
+              >
+                <Building size={16} stroke="#377dff" />
+                Employer
+              </Link>
             </div>
           </div>
         </div>

@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
+import PremiumBanner from "../Components/ui/PremiumBanner";
 
 const Home = () => {
-  return (
-    <div>Home</div>
-  )
-}
+  return <PremiumBanner />;
+};
 
-export default Home
+export default Home;

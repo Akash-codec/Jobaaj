@@ -3,11 +3,10 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Label } from "@/components/ui/label";
-import { User, Building } from "lucide-react";
+
 
 import {
   Field,
-  FieldDescription,
   FieldGroup,
   FieldLabel,
   FieldSeparator,
@@ -80,21 +79,6 @@ export function LoginForm({ className, ...props }) {
                   />
                 </div>
               </Field>
-              <FieldDescription className="text-center">
-                <div className="text-base">
-                  Don&apos;t have an account? Sign up as
-                </div>
-                <div className="flex item-center justify-center gap-2 mt-4 mx-auto text-base">
-                  <Link className="flex gap-2 border border-[#377dff] rounded-full py-2 px-6 items-center text-[#377dff]">
-                    <User stroke="#377dff" size={16} />
-                    Jobseeker
-                  </Link>
-                  <Link className="flex gap-2 border border-[#377dff] rounded-full py-2 px-6 items-center text-[#377dff]">
-                    <Building size={16} stroke="#377dff" />
-                    Employer
-                  </Link>
-                </div>
-              </FieldDescription>
             </FieldGroup>
           </form>
         </CardContent>
