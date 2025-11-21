@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 import { SignupForm } from "../Components/signup-form";
 import { CircleCheck } from "lucide-react";
-import { FieldSeparator } from "@/components/ui/field";
 import { Link } from "react-router-dom";
+import { UIContext } from "../Context/UIContext";
 
 const Signup = () => {
+  const {
+      setOpenLogin,
+    } = useContext(UIContext);
   return (
     <div className="bg-white h-screen">
       <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr_1fr] max-w-6xl mx-auto gap-4 lg:gap-6 p-5">
@@ -71,6 +74,7 @@ const Signup = () => {
         {/* Center banner */}
         <div>
           <SignupForm />
+          <div className="text-gray-500">Already have an account? <button onClick={()=>{setOpenLogin(true)}} className="text-[#377dff]">Sign in</button></div>
         </div>
 
         {/* Right banner */}
