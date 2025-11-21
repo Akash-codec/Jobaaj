@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useContext } from "react";
 import {
   Menu,
   SquareMenu,
@@ -10,9 +10,12 @@ import {
   Search,
   CircleDollarSign,
   StickyNote,
+  User,
+  Building,
 } from "lucide-react";
 import { Link } from "react-router-dom";
 import { LoginForm } from "./login-form";
+import { UIContext } from "../Context/UIContext";
 
 const categories = [
   "Taxation",
@@ -243,18 +246,26 @@ const OthersDropMenu = () => (
 
 /* NAVBAR */
 const Navbar = () => {
-  const [openJobs, setOpenJobs] = useState(false);
-  const [openServices, setOpenServices] = useState(false);
-  const [openOthers, setOpenOthers] = useState(false);
-  const [openlogin, setOpenLogin] = useState(false);
-
-  const [mobileMenu, setMobileMenu] = useState(false);
-  const [mobileJobs, setMobileJobs] = useState(false);
-  const [mobileServices, setMobileServices] = useState(false);
-  const [mobileOthers, setMobileOthers] = useState(false);
-
+  const {
+    openJobs,
+    setOpenJobs,
+    openServices,
+    setOpenServices,
+    openOthers,
+    setOpenOthers,
+    openlogin,
+    setOpenLogin,
+    mobileMenu,
+    setMobileMenu,
+    mobileJobs,
+    setMobileJobs,
+    mobileServices,
+    setMobileServices,
+    mobileOthers,
+    setMobileOthers,
+  } = useContext(UIContext);
   return (
-    <header className="w-full bg-white fixed top-0 pt-2 z-50 shadow-sm">
+    <header className="w-full bg-white sticky top-0 pt-2 z-50 shadow-sm">
       <div className="container max-w-6xl mx-auto flex items-center justify-between min-h-[72px]">
         {/* Mobile hamburger */}
         <div className="pl-3 flex items-center gap-4">
@@ -293,12 +304,16 @@ const Navbar = () => {
         </div>
 
         {/* Desktop navbar */}
-        <nav className="hidden lg:flex items-center gap-8">
+        <nav className="hidden lg:flex items-center gap-4 pr-2">
           {/* Find Jobs */}
-          <div
+          <Link
+            to="/jobs"
             className="relative"
             onMouseEnter={() => setOpenJobs(true)}
             onMouseLeave={() => setOpenJobs(false)}
+            onClick={() => {
+              setOpenJobs(false);
+            }}
           >
             <button className="px-3 flex items-center gap-1">
               <span>Find Jobs</span>
@@ -311,7 +326,7 @@ const Navbar = () => {
             <Dropdown open={openJobs} center>
               <JobDropMenu />
             </Dropdown>
-          </div>
+          </Link>
 
           {/* Services */}
           <div
@@ -335,7 +350,7 @@ const Navbar = () => {
           {/* Post Jobs */}
           <Link
             to="/post-job"
-            className="font-semibold border-b-4 border-[#fae4cc] px-3 pb-1 rounded"
+            className="font-semibold border-b-4 border-[#fae4cc] px-3 py-2 rounded"
           >
             Post Jobs
             <span className="ml-1 border border-blue-500 text-blue-500 text-xs px-2 py-0.5 rounded-full">
@@ -363,15 +378,14 @@ const Navbar = () => {
           </div>
 
           {/* Login */}
-          <Link
-            to=""
+          <div
             onClick={() => {
               setOpenLogin(true);
             }}
             className="border px-5 py-1.5 rounded-full text-[#377dff] border-[#377dff] font-medium hover:bg-[#377dff] hover:text-white"
           >
             Login / Register
-          </Link>
+          </div>
 
           {/* Clients */}
           <Link
@@ -381,17 +395,6 @@ const Navbar = () => {
             Our Clients Openings
           </Link>
         </nav>
-      </div>
-
-      {/* Premium Banner */}
-      <div className="bg-[#0e08c7] max-h-[60px] text-white text-center py-3 flex items-center justify-center gap-5 flex-wrap">
-        <p className="text-[22px] ">Placement Guarantee Plan</p>
-        <Link
-          to=""
-          className="bg-[#ed4c78] text-white px-3 py-1.5 rounded-full hover:bg-[#ed4c78]/90 hover:-translate-y-1 transition"
-        >
-          Take a look <ChevronRight size={20} className="inline-block" />
-        </Link>
       </div>
 
       {/* Mobile menu */}
@@ -408,7 +411,9 @@ const Navbar = () => {
           }`}
         >
           <div className="flex items-center justify-between px-8 pt-6">
-            <img src="/Navbar/logoNew.webp" className="w-20" />
+            <Link to="/" onClick={() => setMobileMenu(false)}>
+              <img src="/Navbar/logoNew.webp" className="w-20" />
+            </Link>
             <button onClick={() => setMobileMenu(false)}>
               <X size={28} className="text-gray-500" />
             </button>
@@ -417,8 +422,7 @@ const Navbar = () => {
           <nav className="p-8 h-3/4 text-[#2b3b62] overflow-scroll">
             {/* Mobile Jobs */}
             <div className="py-3">
-              <Link
-                to="/jobs"
+              <div
                 className="flex items-center justify-between cursor-pointer"
                 onClick={() => setMobileJobs(!mobileJobs)}
               >
@@ -430,7 +434,7 @@ const Navbar = () => {
                     mobileJobs ? "rotate-180" : ""
                   }`}
                 />
-              </Link>
+              </div>
               <Dropdown open={mobileJobs} mobile>
                 <JobDropMenu />
               </Dropdown>
@@ -487,7 +491,7 @@ const Navbar = () => {
 
           {/* Bottom auth buttons */}
           <div className="w-9/10 mx-auto p-4 flex flex-col gap-2">
-            <Link
+            <div
               className="bg-[#377dff] text-white py-2 text-center rounded-lg hover:bg-gray-200"
               onClick={() => {
                 setOpenLogin(true);
@@ -495,8 +499,8 @@ const Navbar = () => {
               }}
             >
               Log In
-            </Link>
-            <Link
+            </div>
+            <div
               className="border border-[#377dff] text-[#377dff] py-2 text-center rounded-lg hover:bg-gray-200"
               onClick={() => {
                 setOpenLogin(true);
@@ -504,7 +508,7 @@ const Navbar = () => {
               }}
             >
               Sign Up
-            </Link>
+            </div>
           </div>
         </div>
       </div>
@@ -537,7 +541,28 @@ const Navbar = () => {
               </p>
             </div>
             <div className="max-w-9/10 mx-auto">
-              <LoginForm/>
+              <LoginForm />
+            </div>
+            <div className="text-base text-center text-gra">
+              Don&apos;t have an account? Sign up as
+            </div>
+            <div className="flex item-center justify-center gap-2 mt-4 mx-auto text-base">
+              <Link
+                to="/signup"
+                onClick={() => setOpenLogin(false)}
+                className="flex gap-2 border border-[#377dff] rounded-full py-2 px-6 items-center text-[#377dff]"
+              >
+                <User stroke="#377dff" size={16} />
+                Jobseeker
+              </Link>
+              <Link
+                to="/employer-signup"
+                onClick={() => setOpenLogin(false)}
+                className="flex gap-2 border border-[#377dff] rounded-full py-2 px-6 items-center text-[#377dff]"
+              >
+                <Building size={16} stroke="#377dff" />
+                Employer
+              </Link>
             </div>
           </div>
         </div>

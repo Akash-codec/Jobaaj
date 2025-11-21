@@ -3,6 +3,7 @@ import App from "../App";
 import Jobs from "../pages/Jobs";
 import Home from "../pages/Home";
 import NotFound from "../pages/NotFound";
+import Signup from "../pages/Signup";
 
 export const router = createBrowserRouter([
   {
@@ -24,6 +25,8 @@ export const router = createBrowserRouter([
       { path: "/jobaaj-cares", element: <Jobs /> },
       { path: "/post-job", element: <Jobs /> },
       { path: "/careers", element: <Jobs /> },
+      { path: "/signup", element: <Signup/> },
+      { path: "/employer-signup", element: <Jobs /> },
     ],
   },
   { path: "*", element: <NotFound /> },
