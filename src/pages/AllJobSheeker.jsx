@@ -1,5 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
+import ServiceComponet from "../Components/ServiceComponet";
+import YourInfo from "../Components/YourInfo";
 const companies = [
   { name: "Deloitte", logo: "/All job-sheeker/Deloitte.png" },
   { name: "EY", logo: "/All job-sheeker/EY.png" },
@@ -20,20 +22,6 @@ const logos = [
   "/All job-sheeker/nomura.jpg",
 ];
 
-const cards = [
-  {
-    title: "Not Satisfied With <br> Your Career Progression?",
-    img: "/All job-sheeker/assistance-service.png",
-  },
-  {
-    title: "Not liking the work <br> you are doing",
-    img: "/All job-sheeker/assistance-service2.png",
-  },
-  {
-    title: "Not Getting Enough<br>Opportunities?",
-    img: "/All job-sheeker/service3.png",
-  },
-];
 
 const points = [
   "As per your career aspiration, our team will share with you hot job leads for 1 month.",
@@ -144,23 +132,7 @@ const AllJobSheeker = () => {
           ))}
         </div>
       </div>
-
-      {/* Title Section */}
-      <div className="text-center mt-14 px-4 bg-white ">
-        <h1 className="text-xl font-bold">Jobaaj Placement Assistance Service</h1>
-        <p className="text-lg mt-2 text-gray-600">Finding jobs is what we do best!</p>
-      </div>
-
-      {/* Cards Section */}
-      <div className="text-center grid grid-cols-1 lg:grid-cols-3 gap-6 px-10 mx-10 mt-10 bg-white">
-        {cards.map((c, i) => (
-          <div key={i} className="rounded-xl shadow-md p-6 text-center hover:shadow-xl hover:border hover:scale-105 transition">
-            <img src={c.img} width="60" height="70" className="mx-auto mb-4" alt={c.title.replace(/<br>/g, "")} />
-            <h3 className="text-xl font-semibold" dangerouslySetInnerHTML={{ __html: c.title }} />
-          </div>
-        ))}
-      </div>
-
+      <ServiceComponet/>
       {/* Services Row */}
       <div className="flex flex-col md:flex-row justify-center items-center gap-8 mt-10">
         <div className="flex items-center justify-center gap-4 mb-6 md:mb-0 w-full md:w-1/3">
@@ -485,60 +457,7 @@ const AllJobSheeker = () => {
           />
         </div>
       </div>
-      <div className="w-full py-10 bg-white flex flex-col items-center">
-        <h1 className="text-center font-bold text-3xl md:text-4xl mb-3 pt-2">
-          Your Info Feed
-        </h1>
-        <p className="text-center text-gray-500 text-xl mb-10">
-          News updates to keep you informed and ahead
-        </p>
-        <div className="flex flex-col md:flex-row gap-12 justify-center items-center">
-          {/* Card 1: ProCapitas */}
-          <div className="bg-white rounded-2xl border shadow-lg flex flex-row items-center px-8 py-8 max-w-xl w-full transition-all duration-200
-          hover:-translate-y-2 hover:shadow-2xl"
-            style={{ minHeight: "300px" }}
-          >
-            {/* Left side: logo, heading, text */}
-            <div className="flex flex-col align-top justify-center min-w-[170px] mr-5">
-              <img src="/All job-sheeker/procapitaslogo.png" alt="ProCapitas logo" className="w-14 h-14 mb-3" />
-              <h2 className="text-2xl font-semibold mb-2">ProCapitas</h2>
-              <div className="text-gray-700 mb-1 text-base font-normal">Learn Finance!</div>
-              <div className="text-gray-700 mb-1 text-base font-normal">From Real-Time News</div>
-              <a className="text-blue-600 mt-2 font-semibold hover:underline cursor-pointer text-lg" href="#">
-                Know More
-              </a>
-            </div>
-            {/* Right side: two charts */}
-            <div className="flex flex-col gap-3 items-center flex-1">
-              <img src="/All job-sheeker/Capital-Budgeting-Tool-1.webp"
-                alt="Chart 1"
-                className="w-full max-w-[240px] object-contain rounded"/>
-            </div>
-          </div>
-          {/* Card 2: Jobaaj News */}
-          <div className="bg-white rounded-2xl border shadow-lg flex flex-row items-center px-8 py-8 max-w-xl w-full transition-all duration-200
-                    hover:-translate-y-2 hover:shadow-2xl"
-            style={{ minHeight: "300px" }}
-          >
-            {/* Left side: logo, heading, text */}
-            <div className="flex flex-col align-top justify-center min-w-[170px] mr-5">
-              <img src="/All job-sheeker/bird.png" alt="Jobaaj news logo" className="w-14 h-14 mb-3" />
-              <h2 className="text-2xl font-semibold mb-2">Jobaaj News</h2>
-              <div className="text-gray-700 mb-1 text-base font-normal">Stay Updated</div>
-              <div className="text-gray-700 mb-1 text-base font-normal">With relevant news</div>
-              <a className="text-blue-600 mt-2 font-semibold hover:underline cursor-pointer text-lg" href="#">
-                Know More
-              </a>
-            </div>
-            {/* Right side: illustration */}
-            <div className="flex flex-col gap-3 items-center flex-1">
-              <img src="/All job-sheeker/Tool-2.webp"
-                alt="News Illustration"
-                className="w-full max-w-[240px] object-contain rounded" />
-            </div>
-          </div>
-        </div>
-      </div>
+      <YourInfo/>
       {/* story */}
       <div className="w-full py-8 bg-white flex flex-col items-center">
         <h2 className="uppercase text-gray-500 text-center text-base tracking-wide mb-3 font-semibold">
