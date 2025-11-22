@@ -72,9 +72,9 @@ const Signup = () => {
         </div>
 
         {/* Center banner */}
-        <div>
+        <div className="shadow-xl">
           <SignupForm />
-          <div className="text-gray-500">Already have an account? <button onClick={()=>{setOpenLogin(true)}} className="text-[#377dff]">Sign in</button></div>
+          <div className="text-gray-500 px-6 pb-10">Already have an account? <button onClick={()=>{setOpenLogin(true)}} className="text-[#377dff]">Sign in</button></div>
         </div>
 
         {/* Right banner */}

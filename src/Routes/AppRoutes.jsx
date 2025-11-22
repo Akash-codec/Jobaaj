@@ -5,6 +5,9 @@ import Home from "../pages/Home";
 import NotFound from "../pages/NotFound";
 import AllJobSheeker from "../pages/AllJobSheeker";
 import Signup from "../pages/Signup";
+import EmployerSignup from "../pages/EmployerSignup";
+
+
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -26,7 +29,7 @@ export const router = createBrowserRouter([
       { path: "/post-job", element: <Jobs /> },
       { path: "/careers", element: <Jobs /> },
       { path: "/signup", element: <Signup/> },
-      { path: "/employer-signup", element: <Jobs /> },
+      { path: "/employer-signup", element: <EmployerSignup /> },
     ],
   },
   { path: "*", element: <NotFound /> },
