@@ -213,7 +213,7 @@ export function EmployeeSignupForm({ className, ...props }) {
                 </FieldLabel>
                 <Input id="gstin" type="text" placeholder="GSTIN Number" />
                 <FieldDescription>
-                  By submitting this form I have read and acknowledged the <span>Privacy Policy</span> 
+                  By submitting this form I have read and acknowledged the <span className="text-[#377dff]">Privacy Policy</span> 
                 </FieldDescription>
               </Field>
               <Field>

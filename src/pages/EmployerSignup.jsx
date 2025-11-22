@@ -6,8 +6,8 @@ import { EmployeeSignupForm } from "../Components/Employee-signup-form";
 const EmployerSignup = () => {
   const { setOpenLogin } = useContext(UIContext);
   return (
-    <div className="bg-white h-screen">
-      <div className="grid grid-cols-1 md:grid-cols-[1fr_3fr] max-w-6xl mx-auto gap-4 lg:gap-25 py-30 px-12">
+    <div className="bg-white">
+      <div className="grid grid-cols-1 md:grid-cols-[1fr_3fr] max-w-6xl mx-auto gap-4 lg:gap-25 lg:py-20 px-12">
         {/* Left banner */}
         <div>
           <div className="py-4 mt-15">

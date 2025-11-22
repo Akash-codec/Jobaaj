@@ -9,7 +9,7 @@ const Signup = () => {
       setOpenLogin,
     } = useContext(UIContext);
   return (
-    <div className="bg-white h-screen">
+    <div className="bg-white">
       <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr_1fr] max-w-6xl mx-auto gap-4 lg:gap-6 p-5">
         {/* Left banner */}
         <div>
