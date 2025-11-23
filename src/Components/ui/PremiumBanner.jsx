@@ -4,7 +4,7 @@ import { ChevronRight } from "lucide-react";
 
 const PremiumBanner = () => {
   return (
-    <div className="bg-[#0e08c7] max-h-[60px] text-white text-center py-3 flex items-center justify-center gap-5 flex-wrap sticky top-20">
+    <div className="bg-[#0e08c7] max-h-[60px] text-white text-center py-3 flex items-center justify-center gap-5 flex-wrap sticky top-[72px] z-40">
       <p className="md:text-[22px] ">Placement Guarantee Plan</p>
       <Link
         to=""

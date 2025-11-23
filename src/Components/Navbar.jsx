@@ -484,8 +484,8 @@ const Navbar = () => {
             <div className="max-w-9/10 mx-auto">
               <LoginForm />
             </div>
-            <div className="text-base text-center text-gra">Don&apos;t have an account? Sign up as</div>
-            <div className="flex item-center justify-center gap-2 mt-4 mx-auto text-base">
+            <div className="text-base text-center text-gray-500">Don&apos;t have an account? Sign up as</div>
+            <div className="flex items-center justify-center gap-2 mt-4 mx-auto text-base">
               <Link
                 to="/signup"
                 onClick={() => setOpenLogin(false)}
