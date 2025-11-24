@@ -9,6 +9,7 @@ import PlacementAssistance from "../pages/PlacementAssistance";
 import ResumeWriting from "../pages/ResumeWriting";
 import AtsChecker from "../pages/AtsChecker";
 import EmployerSignup from "../pages/EmployerSignup";
+import RecruterBranding from "../pages/RecruterBranding";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -21,7 +22,7 @@ export const router = createBrowserRouter([
       { path: "/placement-assistance", element: <PlacementAssistance/> },
       { path: "/resume-writing", element: <ResumeWriting/> },
       { path: "/ats-checker", element: <AtsChecker/> },
-      { path: "/recruter-branding", element: <Jobs /> },
+      { path: "/recruter-branding", element: <RecruterBranding /> },
       { path: "/job-posting", element: <Jobs /> },
       { path: "/candidate-pool", element: <Jobs /> },
       { path: "/about-us", element: <Jobs /> },

@@ -1,7 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
-import gsap from "gsap";
 import ServiceComponet from "../Components/ServiceComponet";
 import YourInfo from "../Components/YourInfo";
+import LeadingCompanies from "../Components/LeadingCompanies";
+
 const companies = [
   { name: "Deloitte", logo: "/All job-sheeker/Deloitte.png" },
   { name: "EY", logo: "/All job-sheeker/EY.png" },
@@ -12,16 +13,15 @@ const companies = [
 ];
 
 const logos = [
-  "/All job-sheeker/amazon.png",
-  "/All job-sheeker/Deloitte.png",
-  "/All job-sheeker/KPMG.png",
-  "/All job-sheeker/google.png",
-  "/All job-sheeker/PWC.png",
-  "/All job-sheeker/EY.png",
-  "/All job-sheeker/bmw.png",
-  "/All job-sheeker/nomura.jpg",
+  { src: "/All job-sheeker/amazon.png", alt: "Amazon logo" },
+  { src: "/All job-sheeker/Deloitte.png", alt: "Deloitte logo" },
+  { src: "/All job-sheeker/KPMG.png", alt: "KPMG logo" },
+  { src: "/All job-sheeker/google.png", alt: "Google logo" },
+  { src: "/All job-sheeker/PWC.png", alt: "PwC logo" },
+  { src: "/All job-sheeker/EY.png", alt: "EY logo" },
+  { src: "/All job-sheeker/bmw.png", alt: "BMW logo" },
+  { src: "/All job-sheeker/nomura.jpg", alt: "Nomura logo" },
 ];
-
 
 const points = [
   "As per your career aspiration, our team will share with you hot job leads for 1 month.",
@@ -29,38 +29,8 @@ const points = [
   "Be among the first few candidates to know about a job opening, get an email update, other details of concerned recruiters, and much more.",
   "Also we'll give you preference in being the first lot of resumes that get sent across to the recruiters we have a tie up with.",
 ];
-// GSAP Marquee Component
-const Marquee = ({ logos }) => {
-  const marqueeRef = useRef(null);
-  useEffect(() => {
-    const elem = marqueeRef.current;
-    gsap.to(elem, {
-      x: "-50%",
-      duration: 9,
-      ease: "linear",
-      repeat: -1,
-    });
-  }, []);
-  return (
-    <div className="overflow-hidden relative w-full">
-      <div
-        ref={marqueeRef}
-        className="flex gap-18 whitespace-nowrap"
-        style={{ width: "200%" }}
-      >
-        {logos.concat(logos).map((logo, i) => (
-          <img
-            key={i}
-            src={logo}
-            alt="Brand Logo"
-            className="inline-block opacity-60"
-            style={{ height: "2.5rem", width: "80px" }}
-          />
-        ))}
-      </div>
-    </div>
-  );
-};
+
+
 
 const AllJobSheeker = () => {
   // TIMER LOGIC
@@ -115,9 +85,7 @@ const AllJobSheeker = () => {
           style={{ zIndex: 10, marginBottom: '-18px' }}
         >
           {companies.map((c, i) => (
-            <div
-              key={i}
-              className="
+            <div key={i} className="
                 bg-white rounded-full shadow-lg
                 flex items-center justify-center
                 w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24
@@ -201,7 +169,7 @@ const AllJobSheeker = () => {
       {/* GSAP LOGO Marquee */}
       <div className="bg-[#f5f8fc] py-8">
         <h1 className="text-xl text-center my-8 font-bold mb-6">Get Placed in Top MNCs</h1>
-        <Marquee logos={logos} />
+        <LeadingCompanies logos={logos} />
       </div>
 
       {/* Resume Writing & LinkedIn Optimisation Section */}

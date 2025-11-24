@@ -147,8 +147,8 @@ const AtsChecker = () => (
   <div>
     {/* Hero Section */}
     <div className="w-full min-h-screen flex flex-col md:flex-row bg-gradient-to-br from-[#F4F8FF] via-white to-[#D9E6FF] px-0 py-0">
-      <div className="w-full md:w-1/2 flex flex-col justify-center px-8 lg:px-24 py-16 z-10">
-        <span className="inline-block bg-[#E6DEFB] text-[#7d68e6] font-extrabold text-[1.09rem] px-6 py-2 rounded-full tracking-[0.06em] mb-8">
+      <div className="md:w-1/2 flex flex-col justify-center px-8 lg:px-24 py-16 z-10">
+        <span className="bg-[#E6DEFB] text-[#7d68e6] font-extrabold text-[1.09rem] px-6 py-2 rounded-full tracking-[0.06em] mb-8">
           ATS RESUME CHECKER
         </span>
         <h1 className="font-black text-[2.8rem] md:text-[4rem] leading-tight text-gray-900 mb-2 mt-2">
