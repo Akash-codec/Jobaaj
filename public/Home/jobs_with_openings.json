@@ -1,0 +1,2862 @@
+[
+  {
+    "jobId": "JOB-AF-001",
+    "postedAt": "2025-11-11 12:00",
+    "title": "Senior Accountant",
+    "company": "KPMG",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/8/8e/KPMG_logo.svg",
+    "salary": "8-12 LPA",
+    "applicants": 142,
+    "category": "Accounting Finance",
+    "tags": [
+      "Full Time",
+      "Work From Office"
+    ],
+    "skills": [
+      "Tally",
+      "GST",
+      "Financial Reporting"
+    ],
+    "experience": "3-5 years",
+    "location": "Mumbai, India",
+    "openings": 8
+  },
+  {
+    "jobId": "JOB-AF-002",
+    "postedAt": "2025-11-12 10:30",
+    "title": "Junior Accountant",
+    "company": "PwC",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/6/6e/PwC_logo.svg",
+    "salary": "4-7 LPA",
+    "applicants": 98,
+    "category": "Accounting Finance",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Bookkeeping",
+      "MS Excel",
+      "Journal Entries"
+    ],
+    "experience": "0-2 years",
+    "location": "Delhi, India",
+    "openings": 4
+  },
+  {
+    "jobId": "JOB-AF-003",
+    "postedAt": "2025-11-14 14:00",
+    "title": "Accounts Payable Specialist",
+    "company": "HDFC Bank",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/6/6a/HDFC_Bank_Logo.svg",
+    "salary": "5-9 LPA",
+    "applicants": 176,
+    "category": "Accounting Finance",
+    "tags": [
+      "Full Time",
+      "Hybrid"
+    ],
+    "skills": [
+      "AP Process",
+      "Invoice Processing",
+      "Reconciliation"
+    ],
+    "experience": "1-3 years",
+    "location": "Pune, India",
+    "openings": 6
+  },
+  {
+    "jobId": "JOB-AF-004",
+    "postedAt": "2025-11-15 09:15",
+    "title": "Tax Analyst",
+    "company": "EY",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/4/4b/EY_logo_2019.svg",
+    "salary": "7-11 LPA",
+    "applicants": 134,
+    "category": "Accounting Finance",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Direct Taxation",
+      "GST",
+      "Income Tax"
+    ],
+    "experience": "2-4 years",
+    "location": "Bengaluru, India",
+    "openings": 8
+  },
+  {
+    "jobId": "JOB-AF-005",
+    "postedAt": "2025-11-13 12:00",
+    "title": "Financial Auditor",
+    "company": "Deloitte",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Deloitte_Logo.svg",
+    "salary": "10-14 LPA",
+    "applicants": 201,
+    "category": "Accounting Finance",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Auditing",
+      "Internal Controls",
+      "IFRS"
+    ],
+    "experience": "3-6 years",
+    "location": "Gurgaon, India",
+    "openings": 7
+  },
+  {
+    "jobId": "JOB-AF-006",
+    "postedAt": "2025-11-16 11:45",
+    "title": "Credit Analyst",
+    "company": "ICICI Bank",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/8/89/ICICI_Bank_Logo.svg",
+    "salary": "6-10 LPA",
+    "applicants": 165,
+    "category": "Accounting Finance",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Credit Assessment",
+      "Loan Underwriting"
+    ],
+    "experience": "1-4 years",
+    "location": "Chennai, India",
+    "openings": 2
+  },
+  {
+    "jobId": "JOB-AF-007",
+    "postedAt": "2025-11-18 15:00",
+    "title": "Payroll Executive",
+    "company": "Infosys",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/4/45/Infosys_logo.svg",
+    "salary": "4-6 LPA",
+    "applicants": 110,
+    "category": "Accounting Finance",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Payroll Management",
+      "Compliance",
+      "PF/ESI"
+    ],
+    "experience": "1-3 years",
+    "location": "Hyderabad, India",
+    "openings": 10
+  },
+  {
+    "jobId": "JOB-AF-008",
+    "postedAt": "2025-11-17 10:45",
+    "title": "Cost Accountant",
+    "company": "Aditya Birla Group",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/en/1/10/Aditya_Birla_Group_Logo.svg",
+    "salary": "7-10 LPA",
+    "applicants": 122,
+    "category": "Accounting Finance",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Costing",
+      "Variance Analysis"
+    ],
+    "experience": "2-4 years",
+    "location": "Ahmedabad, India",
+    "openings": 2
+  },
+  {
+    "jobId": "JOB-AF-009",
+    "postedAt": "2025-11-14 13:30",
+    "title": "Treasury Executive",
+    "company": "Reliance",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Reliance_Industries_Logo.svg",
+    "salary": "6-9 LPA",
+    "applicants": 154,
+    "category": "Accounting Finance",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Cash Flow",
+      "Banking",
+      "Treasury Ops"
+    ],
+    "experience": "2-4 years",
+    "location": "Mumbai, India",
+    "openings": 4
+  },
+  {
+    "jobId": "JOB-AF-010",
+    "postedAt": "2025-11-20 11:10",
+    "title": "Senior Finance Executive",
+    "company": "Tata Capital",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Tata_logo.svg",
+    "salary": "9-13 LPA",
+    "applicants": 188,
+    "category": "Accounting Finance",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Financial Reporting",
+      "Budgeting"
+    ],
+    "experience": "3-5 years",
+    "location": "Mumbai, India",
+    "openings": 1
+  },
+  {
+    "jobId": "JOB-AF-011",
+    "postedAt": "2025-11-21 10:20",
+    "title": "Reconciliation Analyst",
+    "company": "Citi",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Citigroup.svg",
+    "salary": "5-8 LPA",
+    "applicants": 104,
+    "category": "Accounting Finance",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Bank Reconciliation",
+      "Ledger Review"
+    ],
+    "experience": "1-3 years",
+    "location": "Pune, India",
+    "openings": 9
+  },
+  {
+    "jobId": "JOB-AF-012",
+    "postedAt": "2025-11-22 09:40",
+    "title": "Internal Auditor",
+    "company": "Grant Thornton",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Grant_Thornton_logo.svg",
+    "salary": "9-12 LPA",
+    "applicants": 177,
+    "category": "Accounting Finance",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Audit",
+      "Compliance",
+      "Risk"
+    ],
+    "experience": "3-6 years",
+    "location": "Delhi, India",
+    "openings": 8
+  },
+  {
+    "jobId": "JOB-AF-013",
+    "postedAt": "2025-11-19 12:50",
+    "title": "Financial Analyst",
+    "company": "Accenture",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Accenture.svg",
+    "salary": "7-10 LPA",
+    "applicants": 212,
+    "category": "Accounting Finance",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Financial Modeling",
+      "Forecasting"
+    ],
+    "experience": "2-4 years",
+    "location": "Bengaluru, India",
+    "openings": 10
+  },
+  {
+    "jobId": "JOB-AF-014",
+    "postedAt": "2025-11-23 14:20",
+    "title": "Budgeting Analyst",
+    "company": "Wipro",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/6/64/Wipro_Primary_Logo_Color.svg",
+    "salary": "6-9 LPA",
+    "applicants": 131,
+    "category": "Accounting Finance",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Budget Preparation",
+      "Variance Analysis"
+    ],
+    "experience": "2-3 years",
+    "location": "Hyderabad, India",
+    "openings": 5
+  },
+  {
+    "jobId": "JOB-AF-015",
+    "postedAt": "2025-11-24 11:45",
+    "title": "GST Executive",
+    "company": "Zydus",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Zydus_Cadila_logo.svg",
+    "salary": "4-6 LPA",
+    "applicants": 99,
+    "category": "Accounting Finance",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "GST Filing",
+      "Reconciliation"
+    ],
+    "experience": "1-2 years",
+    "location": "Ahmedabad, India",
+    "openings": 3
+  },
+  {
+    "jobId": "JOB-AF-016",
+    "postedAt": "2025-11-25 10:00",
+    "title": "Billing Specialist",
+    "company": "HP",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/3/3a/HP_logo_2012.svg",
+    "salary": "5-7 LPA",
+    "applicants": 142,
+    "category": "Accounting Finance",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Invoice Billing",
+      "SAP"
+    ],
+    "experience": "1-3 years",
+    "location": "Chennai, India",
+    "openings": 1
+  },
+  {
+    "jobId": "JOB-AF-017",
+    "postedAt": "2025-11-26 12:15",
+    "title": "Banking Operation Executive",
+    "company": "Kotak Mahindra Bank",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/4/45/Kotak_Mahindra_Bank_logo.svg",
+    "salary": "4-7 LPA",
+    "applicants": 115,
+    "category": "Accounting Finance",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Banking Ops",
+      "KYC",
+      "Compliance"
+    ],
+    "experience": "0-2 years",
+    "location": "Mumbai, India",
+    "openings": 10
+  },
+  {
+    "jobId": "JOB-AF-018",
+    "postedAt": "2025-11-27 14:35",
+    "title": "Accounts Receivable Analyst",
+    "company": "SAP",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/5/59/SAP_2011_logo.svg",
+    "salary": "6-8 LPA",
+    "applicants": 128,
+    "category": "Accounting Finance",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "AR Process",
+      "SAP",
+      "Reconciliation"
+    ],
+    "experience": "1-3 years",
+    "location": "Pune, India",
+    "openings": 1
+  },
+  {
+    "jobId": "JOB-AF-019",
+    "postedAt": "2025-11-28 09:30",
+    "title": "Finance Associate",
+    "company": "Asian Paints",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/en/8/84/Asian_Paints_logo.svg",
+    "salary": "5-8 LPA",
+    "applicants": 167,
+    "category": "Accounting Finance",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Reporting",
+      "Budgeting",
+      "MIS"
+    ],
+    "experience": "1-3 years",
+    "location": "Mumbai, India",
+    "openings": 4
+  },
+  {
+    "jobId": "JOB-AF-020",
+    "postedAt": "2025-11-29 10:50",
+    "title": "Finance Controller",
+    "company": "IBM",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg",
+    "salary": "18-25 LPA",
+    "applicants": 214,
+    "category": "Accounting Finance",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Financial Planning",
+      "Compliance",
+      "Controls"
+    ],
+    "experience": "7-10 years",
+    "location": "Bengaluru, India",
+    "openings": 10
+  },
+  {
+    "jobId": "JOB-PM-001",
+    "postedAt": "2025-11-10 09:00",
+    "title": "Associate Product Manager",
+    "company": "Flipkart",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/1/12/Flipkart_logo.svg",
+    "salary": "10-16 LPA",
+    "applicants": 210,
+    "category": "Product Management",
+    "tags": [
+      "Full Time",
+      "Hybrid"
+    ],
+    "skills": [
+      "Product Roadmapping",
+      "A/B Testing",
+      "SQL"
+    ],
+    "experience": "1-3 years",
+    "location": "Bengaluru, India",
+    "openings": 3
+  },
+  {
+    "jobId": "JOB-PM-002",
+    "postedAt": "2025-11-12 11:30",
+    "title": "Product Manager",
+    "company": "Amazon",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+    "salary": "18-28 LPA",
+    "applicants": 344,
+    "category": "Product Management",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Product Strategy",
+      "Customer Research",
+      "Data Analysis"
+    ],
+    "experience": "3-5 years",
+    "location": "Hyderabad, India",
+    "openings": 7
+  },
+  {
+    "jobId": "JOB-PM-003",
+    "postedAt": "2025-11-14 10:10",
+    "title": "Technical Product Manager",
+    "company": "Microsoft",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+    "salary": "25-35 LPA",
+    "applicants": 289,
+    "category": "Product Management",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "API Design",
+      "Agile",
+      "Jira",
+      "System Design"
+    ],
+    "experience": "4-6 years",
+    "location": "Noida, India",
+    "openings": 10
+  },
+  {
+    "jobId": "JOB-PM-004",
+    "postedAt": "2025-11-15 12:20",
+    "title": "Product Analyst",
+    "company": "Swiggy",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/1/13/Swiggy_logo.svg",
+    "salary": "8-12 LPA",
+    "applicants": 162,
+    "category": "Product Management",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "SQL",
+      "Dashboarding",
+      "User Research"
+    ],
+    "experience": "1-3 years",
+    "location": "Bengaluru, India",
+    "openings": 10
+  },
+  {
+    "jobId": "JOB-PM-005",
+    "postedAt": "2025-11-11 15:00",
+    "title": "Product Designer",
+    "company": "Zomato",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/4/46/Zomato_logo.svg",
+    "salary": "10-15 LPA",
+    "applicants": 187,
+    "category": "Product Management",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "UI/UX",
+      "Figma",
+      "Prototyping"
+    ],
+    "experience": "2-5 years",
+    "location": "Gurgaon, India",
+    "openings": 4
+  },
+  {
+    "jobId": "JOB-PM-006",
+    "postedAt": "2025-11-16 10:55",
+    "title": "Group Product Manager",
+    "company": "Paytm",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/5/55/Paytm_logo.svg",
+    "salary": "35-50 LPA",
+    "applicants": 310,
+    "category": "Product Management",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Roadmaps",
+      "Leadership",
+      "Data-Driven Strategy"
+    ],
+    "experience": "7-10 years",
+    "location": "Noida, India",
+    "openings": 2
+  },
+  {
+    "jobId": "JOB-PM-007",
+    "postedAt": "2025-11-18 09:45",
+    "title": "Product Manager - Fintech",
+    "company": "PhonePe",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/f/f1/PhonePe_Logo.svg",
+    "salary": "18-30 LPA",
+    "applicants": 233,
+    "category": "Product Management",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Payments",
+      "Product Vision",
+      "Business Strategy"
+    ],
+    "experience": "3-6 years",
+    "location": "Bengaluru, India",
+    "openings": 8
+  },
+  {
+    "jobId": "JOB-PM-008",
+    "postedAt": "2025-11-17 10:30",
+    "title": "Product Owner",
+    "company": "Tata Digital",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Tata_logo.svg",
+    "salary": "14-20 LPA",
+    "applicants": 176,
+    "category": "Product Management",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Scrum",
+      "Grooming",
+      "Backlog Management"
+    ],
+    "experience": "2-5 years",
+    "location": "Mumbai, India",
+    "openings": 10
+  },
+  {
+    "jobId": "JOB-PM-009",
+    "postedAt": "2025-11-19 12:00",
+    "title": "Product Intern",
+    "company": "Nykaa",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/3/39/Nykaa_logo.svg",
+    "salary": "15-25k/month",
+    "applicants": 423,
+    "category": "Product Management",
+    "tags": [
+      "Internship"
+    ],
+    "skills": [
+      "Research",
+      "Wireframing"
+    ],
+    "experience": "0-1 years",
+    "location": "Mumbai, India",
+    "openings": 7
+  },
+  {
+    "jobId": "JOB-PM-010",
+    "postedAt": "2025-11-20 14:15",
+    "title": "Senior Product Analyst",
+    "company": "Meesho",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/0/04/Meesho_Logo.png",
+    "salary": "12-17 LPA",
+    "applicants": 189,
+    "category": "Product Management",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Data Analysis",
+      "User Funnels"
+    ],
+    "experience": "2-4 years",
+    "location": "Bengaluru, India",
+    "openings": 1
+  },
+  {
+    "jobId": "JOB-PM-011",
+    "postedAt": "2025-11-21 10:00",
+    "title": "Product Strategy Lead",
+    "company": "Byju's",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/5/5d/BYJU%27S_Logo.svg",
+    "salary": "15-25 LPA",
+    "applicants": 142,
+    "category": "Product Management",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Strategy",
+      "Competitive Analysis"
+    ],
+    "experience": "4-7 years",
+    "location": "Bengaluru, India",
+    "openings": 7
+  },
+  {
+    "jobId": "JOB-PM-012",
+    "postedAt": "2025-11-22 09:40",
+    "title": "Product Research Analyst",
+    "company": "Ola",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/2/20/Ola_Cabs_logo.svg",
+    "salary": "6-10 LPA",
+    "applicants": 164,
+    "category": "Product Management",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "User Interviews",
+      "Market Analysis"
+    ],
+    "experience": "1-3 years",
+    "location": "Bengaluru, India",
+    "openings": 7
+  },
+  {
+    "jobId": "JOB-PM-013",
+    "postedAt": "2025-11-23 12:10",
+    "title": "Product Coordinator",
+    "company": "TCS",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Tata_Consultancy_Services_Logo.svg",
+    "salary": "5-8 LPA",
+    "applicants": 155,
+    "category": "Product Management",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Stakeholder Management",
+      "Documentation"
+    ],
+    "experience": "1-2 years",
+    "location": "Kolkata, India",
+    "openings": 4
+  },
+  {
+    "jobId": "JOB-PM-014",
+    "postedAt": "2025-11-24 09:45",
+    "title": "Senior Product Manager",
+    "company": "IBM",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg",
+    "salary": "30-45 LPA",
+    "applicants": 201,
+    "category": "Product Management",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Roadmap Strategy",
+      "KPIs",
+      "Leadership"
+    ],
+    "experience": "6-10 years",
+    "location": "Bengaluru, India",
+    "openings": 8
+  },
+  {
+    "jobId": "JOB-PM-015",
+    "postedAt": "2025-11-25 14:00",
+    "title": "Growth Product Manager",
+    "company": "CRED",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/en/9/9e/CRED_logo.png",
+    "salary": "20-30 LPA",
+    "applicants": 244,
+    "category": "Product Management",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Growth Loops",
+      "A/B Testing",
+      "Retention"
+    ],
+    "experience": "3-6 years",
+    "location": "Bengaluru, India",
+    "openings": 5
+  },
+  {
+    "jobId": "JOB-PM-016",
+    "postedAt": "2025-11-26 10:10",
+    "title": "AI Product Manager",
+    "company": "Google",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+    "salary": "35-50 LPA",
+    "applicants": 310,
+    "category": "Product Management",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "AI products",
+      "LLMs",
+      "APIs"
+    ],
+    "experience": "4-7 years",
+    "location": "Hyderabad, India",
+    "openings": 4
+  },
+  {
+    "jobId": "JOB-PM-017",
+    "postedAt": "2025-11-27 11:15",
+    "title": "Product Marketing Manager",
+    "company": "Adobe",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Adobe_Systems_logo_and_wordmark.svg",
+    "salary": "16-24 LPA",
+    "applicants": 188,
+    "category": "Product Management",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Go-To-Market",
+      "Positioning"
+    ],
+    "experience": "3-5 years",
+    "location": "Noida, India",
+    "openings": 2
+  },
+  {
+    "jobId": "JOB-PM-018",
+    "postedAt": "2025-11-28 15:00",
+    "title": "Platform Product Manager",
+    "company": "Salesforce",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/2/29/Salesforce_logo.svg",
+    "salary": "25-40 LPA",
+    "applicants": 162,
+    "category": "Product Management",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Platform Architecture",
+      "APIs",
+      "Cloud"
+    ],
+    "experience": "5-8 years",
+    "location": "Hyderabad, India",
+    "openings": 1
+  },
+  {
+    "jobId": "JOB-PM-019",
+    "postedAt": "2025-11-29 09:30",
+    "title": "Product Operations Manager",
+    "company": "Meta",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Meta_Platforms_Inc._logo.svg",
+    "salary": "22-30 LPA",
+    "applicants": 156,
+    "category": "Product Management",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Operations",
+      "Process Optimization"
+    ],
+    "experience": "3-6 years",
+    "location": "Bengaluru, India",
+    "openings": 7
+  },
+  {
+    "jobId": "JOB-PM-020",
+    "postedAt": "2025-11-30 11:00",
+    "title": "Junior Product Manager",
+    "company": "Freshworks",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Freshworks_logo.svg",
+    "salary": "8-12 LPA",
+    "applicants": 202,
+    "category": "Product Management",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Documentation",
+      "User Stories"
+    ],
+    "experience": "1-2 years",
+    "location": "Chennai, India",
+    "openings": 9
+  },
+  {
+    "jobId": "JOB-CF-001",
+    "postedAt": "2025-11-10 10:00",
+    "title": "Corporate Finance Analyst",
+    "company": "Deloitte",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Deloitte_logo.png",
+    "salary": "8-14 LPA",
+    "applicants": 189,
+    "category": "Corporate Finance",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Financial Modeling",
+      "Valuation",
+      "Excel"
+    ],
+    "experience": "1-3 years",
+    "location": "Mumbai, India",
+    "openings": 8
+  },
+  {
+    "jobId": "JOB-CF-002",
+    "postedAt": "2025-11-11 09:45",
+    "title": "Senior Corporate Finance Analyst",
+    "company": "EY",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/6/6b/EY_logo_2019.svg",
+    "salary": "12-20 LPA",
+    "applicants": 220,
+    "category": "Corporate Finance",
+    "tags": [
+      "Full Time",
+      "Work From Office"
+    ],
+    "skills": [
+      "M&A",
+      "DCF",
+      "Pitch Decks"
+    ],
+    "experience": "3-5 years",
+    "location": "Gurgaon, India",
+    "openings": 3
+  },
+  {
+    "jobId": "JOB-CF-003",
+    "postedAt": "2025-11-12 14:20",
+    "title": "Financial Controller",
+    "company": "KPMG",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/0/0d/KPMG_logo.svg",
+    "salary": "20-30 LPA",
+    "applicants": 175,
+    "category": "Corporate Finance",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Financial Reporting",
+      "Internal Controls"
+    ],
+    "experience": "5-8 years",
+    "location": "Bengaluru, India",
+    "openings": 6
+  },
+  {
+    "jobId": "JOB-CF-004",
+    "postedAt": "2025-11-14 11:15",
+    "title": "Treasury Analyst",
+    "company": "HDFC Bank",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/0/04/HDFC_Bank_Logo.svg",
+    "salary": "7-12 LPA",
+    "applicants": 142,
+    "category": "Corporate Finance",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Cash Flow",
+      "Risk Assessment"
+    ],
+    "experience": "1-4 years",
+    "location": "Mumbai, India",
+    "openings": 7
+  },
+  {
+    "jobId": "JOB-CF-005",
+    "postedAt": "2025-11-15 13:00",
+    "title": "Corporate Finance Manager",
+    "company": "Mahindra",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/5/59/Mahindra_logo.svg",
+    "salary": "15-25 LPA",
+    "applicants": 198,
+    "category": "Corporate Finance",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Budgeting",
+      "Forecasting"
+    ],
+    "experience": "4-7 years",
+    "location": "Pune, India",
+    "openings": 5
+  },
+  {
+    "jobId": "JOB-CF-006",
+    "postedAt": "2025-11-16 10:30",
+    "title": "Mergers & Acquisitions Analyst",
+    "company": "PwC",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Pwc_logo.svg",
+    "salary": "10-18 LPA",
+    "applicants": 260,
+    "category": "Corporate Finance",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Valuation",
+      "M&A",
+      "Pitch Books"
+    ],
+    "experience": "2-5 years",
+    "location": "Mumbai, India",
+    "openings": 10
+  },
+  {
+    "jobId": "JOB-CF-007",
+    "postedAt": "2025-11-17 16:00",
+    "title": "Finance Business Partner",
+    "company": "Asian Paints",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/en/0/05/Asian_Paints_Logo.svg",
+    "salary": "12-22 LPA",
+    "applicants": 152,
+    "category": "Corporate Finance",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Business Finance",
+      "FP&A"
+    ],
+    "experience": "3-6 years",
+    "location": "Mumbai, India",
+    "openings": 8
+  },
+  {
+    "jobId": "JOB-CF-008",
+    "postedAt": "2025-11-18 11:45",
+    "title": "Cost Accountant",
+    "company": "Tata Steel",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Tata_Steel_Logo.svg",
+    "salary": "6-10 LPA",
+    "applicants": 133,
+    "category": "Corporate Finance",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Costing",
+      "SAP"
+    ],
+    "experience": "1-3 years",
+    "location": "Jamshedpur, India",
+    "openings": 2
+  },
+  {
+    "jobId": "JOB-CF-009",
+    "postedAt": "2025-11-19 09:30",
+    "title": "Corporate Auditor",
+    "company": "Bosch",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Bosch-logotype.svg",
+    "salary": "7-12 LPA",
+    "applicants": 148,
+    "category": "Corporate Finance",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Internal Audit",
+      "IFRS"
+    ],
+    "experience": "2-4 years",
+    "location": "Bengaluru, India",
+    "openings": 9
+  },
+  {
+    "jobId": "JOB-CF-010",
+    "postedAt": "2025-11-20 12:20",
+    "title": "Equity Research Associate",
+    "company": "ICICI Securities",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/en/4/44/ICICI_Bank_Logo.svg",
+    "salary": "8-14 LPA",
+    "applicants": 223,
+    "category": "Corporate Finance",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Equity Research",
+      "Financial Analysis"
+    ],
+    "experience": "1-3 years",
+    "location": "Mumbai, India",
+    "openings": 7
+  },
+  {
+    "jobId": "JOB-CF-011",
+    "postedAt": "2025-11-21 10:40",
+    "title": "FP&A Analyst",
+    "company": "Infosys",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Infosys_logo.svg",
+    "salary": "6-10 LPA",
+    "applicants": 165,
+    "category": "Corporate Finance",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Excel",
+      "Reporting",
+      "Financial Planning"
+    ],
+    "experience": "1-3 years",
+    "location": "Bengaluru, India",
+    "openings": 4
+  },
+  {
+    "jobId": "JOB-CF-012",
+    "postedAt": "2025-11-22 09:50",
+    "title": "Finance Analyst Intern",
+    "company": "Citi",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Citibank.svg",
+    "salary": "20-30k/month",
+    "applicants": 412,
+    "category": "Corporate Finance",
+    "tags": [
+      "Internship"
+    ],
+    "skills": [
+      "Excel",
+      "Reporting"
+    ],
+    "experience": "0-1 years",
+    "location": "Mumbai, India",
+    "openings": 3
+  },
+  {
+    "jobId": "JOB-CF-013",
+    "postedAt": "2025-11-23 11:20",
+    "title": "Corporate Strategy Analyst",
+    "company": "Reliance Industries",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/0/06/Reliance_Industries_Logo.svg",
+    "salary": "10-18 LPA",
+    "applicants": 199,
+    "category": "Corporate Finance",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Strategy",
+      "Valuation",
+      "Presentations"
+    ],
+    "experience": "1-3 years",
+    "location": "Mumbai, India",
+    "openings": 6
+  },
+  {
+    "jobId": "JOB-CF-014",
+    "postedAt": "2025-11-24 12:00",
+    "title": "Risk Analyst",
+    "company": "HSBC",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/5/5a/HSBC_logo_%282018%29.svg",
+    "salary": "7-12 LPA",
+    "applicants": 141,
+    "category": "Corporate Finance",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Risk Modeling",
+      "Credit Risk"
+    ],
+    "experience": "1-4 years",
+    "location": "Pune, India",
+    "openings": 10
+  },
+  {
+    "jobId": "JOB-CF-015",
+    "postedAt": "2025-11-25 09:15",
+    "title": "Finance Transformation Consultant",
+    "company": "Accenture",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Accenture.svg",
+    "salary": "12-20 LPA",
+    "applicants": 154,
+    "category": "Corporate Finance",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "SAP",
+      "Process Optimization"
+    ],
+    "experience": "3-6 years",
+    "location": "Bengaluru, India",
+    "openings": 5
+  },
+  {
+    "jobId": "JOB-CF-016",
+    "postedAt": "2025-11-26 14:30",
+    "title": "Credit Analyst",
+    "company": "Kotak Mahindra Bank",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/en/0/05/Kotak_Mahindra_Bank_logo.svg",
+    "salary": "6-11 LPA",
+    "applicants": 168,
+    "category": "Corporate Finance",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Credit Evaluation",
+      "Balance Sheets"
+    ],
+    "experience": "1-3 years",
+    "location": "Mumbai, India",
+    "openings": 3
+  },
+  {
+    "jobId": "JOB-CF-017",
+    "postedAt": "2025-11-27 10:00",
+    "title": "Corporate Compliance Analyst",
+    "company": "Siemens",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/1/18/Siemens-logo.svg",
+    "salary": "7-12 LPA",
+    "applicants": 132,
+    "category": "Corporate Finance",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Compliance",
+      "SOX"
+    ],
+    "experience": "1-3 years",
+    "location": "Gurgaon, India",
+    "openings": 2
+  },
+  {
+    "jobId": "JOB-CF-018",
+    "postedAt": "2025-11-28 09:40",
+    "title": "Financial Planning Associate",
+    "company": "Wipro",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/6/69/Wipro_logo.svg",
+    "salary": "6-10 LPA",
+    "applicants": 181,
+    "category": "Corporate Finance",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Budgeting",
+      "Forecasting"
+    ],
+    "experience": "1-3 years",
+    "location": "Pune, India",
+    "openings": 6
+  },
+  {
+    "jobId": "JOB-CF-019",
+    "postedAt": "2025-11-29 13:20",
+    "title": "Corporate Tax Analyst",
+    "company": "Grant Thornton",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Grant_Thornton_logo.svg",
+    "salary": "7-12 LPA",
+    "applicants": 147,
+    "category": "Corporate Finance",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Taxation",
+      "Direct Tax"
+    ],
+    "experience": "1-3 years",
+    "location": "Mumbai, India",
+    "openings": 7
+  },
+  {
+    "jobId": "JOB-CF-020",
+    "postedAt": "2025-11-30 15:00",
+    "title": "Senior FP&A Analyst",
+    "company": "SAP",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/5/59/SAP_2011_logo.svg",
+    "salary": "14-22 LPA",
+    "applicants": 202,
+    "category": "Corporate Finance",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Forecasting",
+      "Financial Models"
+    ],
+    "experience": "4-6 years",
+    "location": "Bengaluru, India",
+    "openings": 7
+  },
+  {
+    "jobId": "JOB-DS-001",
+    "postedAt": "2025-11-11 10:00",
+    "title": "Data Scientist",
+    "company": "Google",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+    "salary": "18-28 LPA",
+    "applicants": 340,
+    "category": "Data Science",
+    "tags": [
+      "Full Time",
+      "Hybrid"
+    ],
+    "skills": [
+      "Python",
+      "Machine Learning",
+      "TensorFlow"
+    ],
+    "experience": "2-5 years",
+    "location": "Bengaluru, India",
+    "openings": 7
+  },
+  {
+    "jobId": "JOB-DS-002",
+    "postedAt": "2025-11-12 09:45",
+    "title": "Junior Data Analyst",
+    "company": "Accenture",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Accenture.svg",
+    "salary": "4-7 LPA",
+    "applicants": 490,
+    "category": "Data Science",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "SQL",
+      "Excel",
+      "Power BI"
+    ],
+    "experience": "0-1 years",
+    "location": "Hyderabad, India",
+    "openings": 1
+  },
+  {
+    "jobId": "JOB-DS-003",
+    "postedAt": "2025-11-13 14:20",
+    "title": "Machine Learning Engineer",
+    "company": "Amazon",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+    "salary": "20-32 LPA",
+    "applicants": 410,
+    "category": "Data Science",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Deep Learning",
+      "Python",
+      "PyTorch"
+    ],
+    "experience": "3-6 years",
+    "location": "Bengaluru, India",
+    "openings": 9
+  },
+  {
+    "jobId": "JOB-DS-004",
+    "postedAt": "2025-11-14 11:40",
+    "title": "Data Engineer",
+    "company": "Microsoft",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+    "salary": "16-26 LPA",
+    "applicants": 280,
+    "category": "Data Science",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "ETL",
+      "Python",
+      "Azure"
+    ],
+    "experience": "2-5 years",
+    "location": "Hyderabad, India",
+    "openings": 8
+  },
+  {
+    "jobId": "JOB-DS-005",
+    "postedAt": "2025-11-15 16:00",
+    "title": "NLP Engineer",
+    "company": "OpenAI",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo_%282023%29.svg",
+    "salary": "25-40 LPA",
+    "applicants": 510,
+    "category": "Data Science",
+    "tags": [
+      "Remote"
+    ],
+    "skills": [
+      "NLP",
+      "Transformers",
+      "Python"
+    ],
+    "experience": "3-6 years",
+    "location": "Remote",
+    "openings": 2
+  },
+  {
+    "jobId": "JOB-DS-006",
+    "postedAt": "2025-11-16 10:15",
+    "title": "BI Analyst",
+    "company": "Wipro",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/6/69/Wipro_logo.svg",
+    "salary": "6-10 LPA",
+    "applicants": 230,
+    "category": "Data Science",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Power BI",
+      "SQL",
+      "Dashboarding"
+    ],
+    "experience": "1-3 years",
+    "location": "Pune, India",
+    "openings": 2
+  },
+  {
+    "jobId": "JOB-DS-007",
+    "postedAt": "2025-11-17 09:50",
+    "title": "Data Science Intern",
+    "company": "Flipkart",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/en/1/1c/Flipkart_logo.png",
+    "salary": "20-30k/month",
+    "applicants": 700,
+    "category": "Data Science",
+    "tags": [
+      "Internship",
+      "Hybrid"
+    ],
+    "skills": [
+      "Python",
+      "Statistics"
+    ],
+    "experience": "0-1 years",
+    "location": "Bengaluru, India",
+    "openings": 2
+  },
+  {
+    "jobId": "JOB-DS-008",
+    "postedAt": "2025-11-18 12:00",
+    "title": "Data Visualization Specialist",
+    "company": "Adobe",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Adobe_Corporate_Logo.png",
+    "salary": "10-18 LPA",
+    "applicants": 220,
+    "category": "Data Science",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Tableau",
+      "Power BI",
+      "Python"
+    ],
+    "experience": "2-4 years",
+    "location": "Noida, India",
+    "openings": 7
+  },
+  {
+    "jobId": "JOB-DS-009",
+    "postedAt": "2025-11-19 13:40",
+    "title": "AI Researcher",
+    "company": "Meta",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/0/05/Meta_Platforms_Inc._logo.svg",
+    "salary": "30-45 LPA",
+    "applicants": 360,
+    "category": "Data Science",
+    "tags": [
+      "Full Time",
+      "Hybrid"
+    ],
+    "skills": [
+      "Deep Learning",
+      "Computer Vision"
+    ],
+    "experience": "3-6 years",
+    "location": "Bengaluru, India",
+    "openings": 7
+  },
+  {
+    "jobId": "JOB-DS-010",
+    "postedAt": "2025-11-20 15:00",
+    "title": "Quant Analyst",
+    "company": "Goldman Sachs",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/7/70/Goldman_Sachs.svg",
+    "salary": "25-35 LPA",
+    "applicants": 290,
+    "category": "Data Science",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Statistics",
+      "Python",
+      "Quant Modeling"
+    ],
+    "experience": "2-5 years",
+    "location": "Bengaluru, India",
+    "openings": 5
+  },
+  {
+    "jobId": "JOB-DS-11",
+    "postedAt": "2025-11-21 09:00",
+    "title": "Big Data Engineer",
+    "company": "TCS",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Tata_Consultancy_Services_Logo.svg",
+    "salary": "12-20 LPA",
+    "applicants": 205,
+    "category": "Data Science",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Hadoop",
+      "Spark",
+      "Kafka"
+    ],
+    "experience": "2-4 years",
+    "location": "Chennai, India",
+    "openings": 9
+  },
+  {
+    "jobId": "JOB-DS-012",
+    "postedAt": "2025-11-22 11:30",
+    "title": "Data Quality Analyst",
+    "company": "IBM",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg",
+    "salary": "7-12 LPA",
+    "applicants": 143,
+    "category": "Data Science",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Data Cleaning",
+      "SQL"
+    ],
+    "experience": "1-3 years",
+    "location": "Pune, India",
+    "openings": 10
+  },
+  {
+    "jobId": "JOB-DS-013",
+    "postedAt": "2025-11-23 10:15",
+    "title": "Computer Vision Engineer",
+    "company": "NVIDIA",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/en/2/21/Nvidia_logo.svg",
+    "salary": "22-35 LPA",
+    "applicants": 315,
+    "category": "Data Science",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "OpenCV",
+      "Deep Learning"
+    ],
+    "experience": "2-5 years",
+    "location": "Bengaluru, India",
+    "openings": 5
+  },
+  {
+    "jobId": "JOB-DS-014",
+    "postedAt": "2025-11-24 12:40",
+    "title": "Statistician",
+    "company": "Novartis",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Novartis-Logo.svg",
+    "salary": "10-16 LPA",
+    "applicants": 150,
+    "category": "Data Science",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "R",
+      "Statistics"
+    ],
+    "experience": "2-4 years",
+    "location": "Hyderabad, India",
+    "openings": 9
+  },
+  {
+    "jobId": "JOB-DS-015",
+    "postedAt": "2025-11-25 13:10",
+    "title": "Data Governance Analyst",
+    "company": "Capgemini",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Capgemini_201x_logo.svg",
+    "salary": "8-14 LPA",
+    "applicants": 130,
+    "category": "Data Science",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Data Governance",
+      "Metadata"
+    ],
+    "experience": "2-4 years",
+    "location": "Mumbai, India",
+    "openings": 1
+  },
+  {
+    "jobId": "JOB-DS-016",
+    "postedAt": "2025-11-26 10:20",
+    "title": "ETL Developer",
+    "company": "Cognizant",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Cognizant_logo_2022.svg",
+    "salary": "7-12 LPA",
+    "applicants": 175,
+    "category": "Data Science",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "ETL",
+      "SQL",
+      "Azure"
+    ],
+    "experience": "1-3 years",
+    "location": "Kolkata, India",
+    "openings": 7
+  },
+  {
+    "jobId": "JOB-DS-017",
+    "postedAt": "2025-11-27 14:00",
+    "title": "Data Architect",
+    "company": "Oracle",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg",
+    "salary": "18-28 LPA",
+    "applicants": 122,
+    "category": "Data Science",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Data Modeling",
+      "SQL",
+      "Cloud"
+    ],
+    "experience": "4-7 years",
+    "location": "Bengaluru, India",
+    "openings": 8
+  },
+  {
+    "jobId": "JOB-DS-018",
+    "postedAt": "2025-11-28 15:20",
+    "title": "AI Product Analyst",
+    "company": "Zoho",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/5/5c/ZOHO_logo.svg",
+    "salary": "6-11 LPA",
+    "applicants": 210,
+    "category": "Data Science",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Python",
+      "Data Analysis"
+    ],
+    "experience": "1-3 years",
+    "location": "Chennai, India",
+    "openings": 1
+  },
+  {
+    "jobId": "JOB-DS-019",
+    "postedAt": "2025-11-29 11:20",
+    "title": "Data Operations Analyst",
+    "company": "Paytm",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/5/55/Paytm_logo.png",
+    "salary": "5-9 LPA",
+    "applicants": 165,
+    "category": "Data Science",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "SQL",
+      "Excel",
+      "Reporting"
+    ],
+    "experience": "1-2 years",
+    "location": "Noida, India",
+    "openings": 4
+  },
+  {
+    "jobId": "JOB-DS-020",
+    "postedAt": "2025-11-30 16:00",
+    "title": "Senior ML Engineer",
+    "company": "Uber",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Uber_logo_2018.png",
+    "salary": "28-40 LPA",
+    "applicants": 345,
+    "category": "Data Science",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "ML Ops",
+      "Deep Learning"
+    ],
+    "experience": "4-7 years",
+    "location": "Hyderabad, India",
+    "openings": 6
+  },
+  {
+    "jobId": "JOB-LR-001",
+    "postedAt": "2025-11-11 09:00",
+    "title": "Corporate Lawyer",
+    "company": "Tata Group",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/1/11/Tata_logo.svg",
+    "salary": "12-20 LPA",
+    "applicants": 145,
+    "category": "Legal & Regulatory",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Corporate Law",
+      "Compliance"
+    ],
+    "experience": "3-6 years",
+    "location": "Mumbai, India",
+    "openings": 1
+  },
+  {
+    "jobId": "JOB-LR-002",
+    "postedAt": "2025-11-12 11:20",
+    "title": "Legal Associate",
+    "company": "Amazon",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+    "salary": "8-14 LPA",
+    "applicants": 210,
+    "category": "Legal & Regulatory",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Contract Drafting",
+      "Legal Research"
+    ],
+    "experience": "1-3 years",
+    "location": "Bengaluru, India",
+    "openings": 9
+  },
+  {
+    "jobId": "JOB-LR-003",
+    "postedAt": "2025-11-13 10:15",
+    "title": "Contract Specialist",
+    "company": "Infosys",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/4/45/Infosys_logo.svg",
+    "salary": "7-12 LPA",
+    "applicants": 133,
+    "category": "Legal & Regulatory",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Contract Review",
+      "Negotiation"
+    ],
+    "experience": "2-4 years",
+    "location": "Pune, India",
+    "openings": 9
+  },
+  {
+    "jobId": "JOB-LR-004",
+    "postedAt": "2025-11-14 14:00",
+    "title": "Regulatory Compliance Analyst",
+    "company": "HDFC Bank",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/5/53/HDFC_Bank_Logo.svg",
+    "salary": "10-18 LPA",
+    "applicants": 185,
+    "category": "Legal & Regulatory",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Compliance",
+      "AML",
+      "RBI Guidelines"
+    ],
+    "experience": "2-5 years",
+    "location": "Mumbai, India",
+    "openings": 8
+  },
+  {
+    "jobId": "JOB-LR-005",
+    "postedAt": "2025-11-15 13:30",
+    "title": "Legal Counsel",
+    "company": "Wipro",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/6/69/Wipro_logo.svg",
+    "salary": "14-22 LPA",
+    "applicants": 165,
+    "category": "Legal & Regulatory",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Corporate Law",
+      "Compliance",
+      "Litigation"
+    ],
+    "experience": "4-7 years",
+    "location": "Bengaluru, India",
+    "openings": 7
+  },
+  {
+    "jobId": "JOB-LR-006",
+    "postedAt": "2025-11-16 16:00",
+    "title": "Legal Intern",
+    "company": "KPMG",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/4/47/KPMG_logo.svg",
+    "salary": "15-25k/month",
+    "applicants": 455,
+    "category": "Legal & Regulatory",
+    "tags": [
+      "Internship"
+    ],
+    "skills": [
+      "Legal Research",
+      "Documentation"
+    ],
+    "experience": "0-1 years",
+    "location": "Mumbai, India",
+    "openings": 1
+  },
+  {
+    "jobId": "JOB-LR-007",
+    "postedAt": "2025-11-17 09:30",
+    "title": "Policy Analyst",
+    "company": "NITI Aayog",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/1/11/NITI_Aayog_logo.png",
+    "salary": "10-16 LPA",
+    "applicants": 320,
+    "category": "Legal & Regulatory",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Policy Research",
+      "Legal Framework"
+    ],
+    "experience": "2-4 years",
+    "location": "New Delhi, India",
+    "openings": 3
+  },
+  {
+    "jobId": "JOB-LR-008",
+    "postedAt": "2025-11-18 10:40",
+    "title": "Senior Compliance Manager",
+    "company": "ICICI Bank",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/8/8a/ICICI_Bank_Logo.svg",
+    "salary": "18-28 LPA",
+    "applicants": 140,
+    "category": "Legal & Regulatory",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Regulatory Compliance",
+      "Risk Assessment"
+    ],
+    "experience": "5-8 years",
+    "location": "Mumbai, India",
+    "openings": 2
+  },
+  {
+    "jobId": "JOB-LR-009",
+    "postedAt": "2025-11-19 12:50",
+    "title": "Paralegal Specialist",
+    "company": "Deloitte",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Deloitte.svg",
+    "salary": "6-10 LPA",
+    "applicants": 260,
+    "category": "Legal & Regulatory",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Documentation",
+      "Legal Filing"
+    ],
+    "experience": "1-3 years",
+    "location": "Gurugram, India",
+    "openings": 1
+  },
+  {
+    "jobId": "JOB-LR-010",
+    "postedAt": "2025-11-20 16:20",
+    "title": "Litigation Specialist",
+    "company": "Reliance Industries",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Reliance_Industries_Logo.svg",
+    "salary": "12-20 LPA",
+    "applicants": 170,
+    "category": "Legal & Regulatory",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Litigation",
+      "Arbitration"
+    ],
+    "experience": "3-6 years",
+    "location": "Mumbai, India",
+    "openings": 4
+  },
+  {
+    "jobId": "JOB-LR-011",
+    "postedAt": "2025-11-21 09:00",
+    "title": "Compliance Auditor",
+    "company": "EY",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Ernst_%26_Young_logo_2019.svg",
+    "salary": "9-16 LPA",
+    "applicants": 195,
+    "category": "Legal & Regulatory",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Auditing",
+      "Compliance"
+    ],
+    "experience": "2-4 years",
+    "location": "Bengaluru, India",
+    "openings": 6
+  },
+  {
+    "jobId": "JOB-LR-012",
+    "postedAt": "2025-11-22 15:10",
+    "title": "Legal Officer",
+    "company": "State Bank of India",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/0/04/SBI-logo.svg",
+    "salary": "8-14 LPA",
+    "applicants": 210,
+    "category": "Legal & Regulatory",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Banking Law",
+      "Documentation"
+    ],
+    "experience": "1-3 years",
+    "location": "Mumbai, India",
+    "openings": 9
+  },
+  {
+    "jobId": "JOB-LR-013",
+    "postedAt": "2025-11-23 13:45",
+    "title": "IPR Specialist",
+    "company": "Sony",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/2/24/Sony_logo.svg",
+    "salary": "14-22 LPA",
+    "applicants": 115,
+    "category": "Legal & Regulatory",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "IPR Law",
+      "Patent Filing"
+    ],
+    "experience": "3-6 years",
+    "location": "Bengaluru, India",
+    "openings": 4
+  },
+  {
+    "jobId": "JOB-LR-014",
+    "postedAt": "2025-11-24 10:10",
+    "title": "Risk & Compliance Analyst",
+    "company": "HSBC",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/5/5f/HSBC_logo_%282018%29.svg",
+    "salary": "10-18 LPA",
+    "applicants": 175,
+    "category": "Legal & Regulatory",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Risk",
+      "Compliance"
+    ],
+    "experience": "2-4 years",
+    "location": "Gurugram, India",
+    "openings": 6
+  },
+  {
+    "jobId": "JOB-LR-015",
+    "postedAt": "2025-11-25 11:50",
+    "title": "Public Policy Intern",
+    "company": "UNICEF",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/9/91/UNICEF_Logo.png",
+    "salary": "20-30k/month",
+    "applicants": 550,
+    "category": "Legal & Regulatory",
+    "tags": [
+      "Internship"
+    ],
+    "skills": [
+      "Research",
+      "Policy Writing"
+    ],
+    "experience": "0-1 years",
+    "location": "Remote",
+    "openings": 7
+  },
+  {
+    "jobId": "JOB-LR-016",
+    "postedAt": "2025-11-26 09:40",
+    "title": "Corporate Governance Analyst",
+    "company": "PwC",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Pwc_logo_2010.svg",
+    "salary": "9-15 LPA",
+    "applicants": 130,
+    "category": "Legal & Regulatory",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Governance",
+      "Reporting"
+    ],
+    "experience": "1-3 years",
+    "location": "Mumbai, India",
+    "openings": 8
+  },
+  {
+    "jobId": "JOB-LR-017",
+    "postedAt": "2025-11-27 10:25",
+    "title": "Labor Law Specialist",
+    "company": "Mahindra & Mahindra",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Mahindra_and_Mahindra_logo.svg",
+    "salary": "7-12 LPA",
+    "applicants": 160,
+    "category": "Legal & Regulatory",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Labor Law",
+      "Employee Relations"
+    ],
+    "experience": "2-4 years",
+    "location": "Chennai, India",
+    "openings": 2
+  },
+  {
+    "jobId": "JOB-LR-018",
+    "postedAt": "2025-11-28 11:45",
+    "title": "Legal Content Analyst",
+    "company": "Thomson Reuters",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Thomson_Reuters_logo.svg",
+    "salary": "6-10 LPA",
+    "applicants": 220,
+    "category": "Legal & Regulatory",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Research",
+      "Legal Writing"
+    ],
+    "experience": "1-3 years",
+    "location": "Bengaluru, India",
+    "openings": 9
+  },
+  {
+    "jobId": "JOB-LR-019",
+    "postedAt": "2025-11-29 14:40",
+    "title": "Tax & Regulatory Consultant",
+    "company": "Grant Thornton",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/4/48/Grant_Thornton_logo.svg",
+    "salary": "10-16 LPA",
+    "applicants": 150,
+    "category": "Legal & Regulatory",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Taxation Law",
+      "Compliance"
+    ],
+    "experience": "2-4 years",
+    "location": "New Delhi, India",
+    "openings": 8
+  },
+  {
+    "jobId": "JOB-LR-020",
+    "postedAt": "2025-11-30 16:00",
+    "title": "Privacy Analyst",
+    "company": "Apple",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg",
+    "salary": "16-24 LPA",
+    "applicants": 305,
+    "category": "Legal & Regulatory",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "GDPR",
+      "Data Privacy"
+    ],
+    "experience": "2-5 years",
+    "location": "Hyderabad, India",
+    "openings": 8
+  },
+  {
+    "jobId": "JOB-MGT-001",
+    "postedAt": "2025-11-11 09:10",
+    "title": "Operations Manager",
+    "company": "Amazon",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+    "salary": "12-20 LPA",
+    "applicants": 210,
+    "category": "Management",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Operations Management",
+      "Team Leadership"
+    ],
+    "experience": "3-6 years",
+    "location": "Hyderabad, India",
+    "openings": 8
+  },
+  {
+    "jobId": "JOB-MGT-002",
+    "postedAt": "2025-11-12 10:25",
+    "title": "Project Manager",
+    "company": "Infosys",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/4/45/Infosys_logo.svg",
+    "salary": "14-22 LPA",
+    "applicants": 190,
+    "category": "Management",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Project Planning",
+      "Agile",
+      "Scrum"
+    ],
+    "experience": "4-7 years",
+    "location": "Pune, India",
+    "openings": 5
+  },
+  {
+    "jobId": "JOB-MGT-003",
+    "postedAt": "2025-11-13 13:00",
+    "title": "Business Strategy Manager",
+    "company": "McKinsey & Co.",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/5/51/McKinsey_%26_Company_logo.svg",
+    "salary": "20-35 LPA",
+    "applicants": 175,
+    "category": "Management",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Strategy",
+      "Business Analysis"
+    ],
+    "experience": "4-8 years",
+    "location": "Gurugram, India",
+    "openings": 2
+  },
+  {
+    "jobId": "JOB-MGT-004",
+    "postedAt": "2025-11-14 11:20",
+    "title": "HR Manager",
+    "company": "Tata Consultancy Services",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Tata_Consultancy_Services_Logo.svg",
+    "salary": "10-18 LPA",
+    "applicants": 255,
+    "category": "Management",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "HR Management",
+      "Recruitment"
+    ],
+    "experience": "3-6 years",
+    "location": "Mumbai, India",
+    "openings": 7
+  },
+  {
+    "jobId": "JOB-MGT-005",
+    "postedAt": "2025-11-15 16:00",
+    "title": "Senior Product Operations Manager",
+    "company": "Flipkart",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Flipkart_logo.svg",
+    "salary": "16-25 LPA",
+    "applicants": 180,
+    "category": "Management",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Operations",
+      "Product Strategy"
+    ],
+    "experience": "5-8 years",
+    "location": "Bengaluru, India",
+    "openings": 4
+  },
+  {
+    "jobId": "JOB-MGT-006",
+    "postedAt": "2025-11-16 11:45",
+    "title": "Senior Program Manager",
+    "company": "Microsoft",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+    "salary": "22-32 LPA",
+    "applicants": 160,
+    "category": "Management",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Program Management",
+      "Cross-functional Leadership"
+    ],
+    "experience": "5-9 years",
+    "location": "Hyderabad, India",
+    "openings": 2
+  },
+  {
+    "jobId": "JOB-MGT-007",
+    "postedAt": "2025-11-17 09:50",
+    "title": "Client Success Manager",
+    "company": "Zoho",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Zoho-logo.png",
+    "salary": "8-14 LPA",
+    "applicants": 240,
+    "category": "Management",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Client Relations",
+      "Communication"
+    ],
+    "experience": "2-5 years",
+    "location": "Chennai, India",
+    "openings": 5
+  },
+  {
+    "jobId": "JOB-MGT-008",
+    "postedAt": "2025-11-18 14:00",
+    "title": "Business Development Manager",
+    "company": "BYJU'S",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/5/5f/BYJU%27S_logo.svg",
+    "salary": "7-12 LPA",
+    "applicants": 275,
+    "category": "Management",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Sales Strategy",
+      "Negotiation"
+    ],
+    "experience": "2-4 years",
+    "location": "Bengaluru, India",
+    "openings": 9
+  },
+  {
+    "jobId": "JOB-MGT-009",
+    "postedAt": "2025-11-19 12:30",
+    "title": "Supply Chain Manager",
+    "company": "Hindustan Unilever",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/2/24/HUL_Logo.svg",
+    "salary": "14-22 LPA",
+    "applicants": 145,
+    "category": "Management",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Supply Chain",
+      "Logistics"
+    ],
+    "experience": "4-7 years",
+    "location": "Mumbai, India",
+    "openings": 1
+  },
+  {
+    "jobId": "JOB-MGT-010",
+    "postedAt": "2025-11-20 16:10",
+    "title": "Operations Lead",
+    "company": "Swiggy",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/1/13/Swiggy_logo.svg",
+    "salary": "9-14 LPA",
+    "applicants": 310,
+    "category": "Management",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Ops",
+      "Team Handling"
+    ],
+    "experience": "2-5 years",
+    "location": "Bengaluru, India",
+    "openings": 2
+  },
+  {
+    "jobId": "JOB-MGT-011",
+    "postedAt": "2025-11-21 10:50",
+    "title": "General Manager",
+    "company": "OYO",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/6/6e/OYO_Logo.svg",
+    "salary": "12-22 LPA",
+    "applicants": 135,
+    "category": "Management",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "People Management",
+      "Strategy"
+    ],
+    "experience": "4-7 years",
+    "location": "Gurugram, India",
+    "openings": 4
+  },
+  {
+    "jobId": "JOB-MGT-012",
+    "postedAt": "2025-11-22 17:00",
+    "title": "Branch Manager",
+    "company": "Kotak Mahindra Bank",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/0/03/Kotak_Mahindra_Bank_logo.svg",
+    "salary": "10-18 LPA",
+    "applicants": 180,
+    "category": "Management",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Branch Ops",
+      "Leadership"
+    ],
+    "experience": "3-6 years",
+    "location": "New Delhi, India",
+    "openings": 10
+  },
+  {
+    "jobId": "JOB-MGT-013",
+    "postedAt": "2025-11-23 11:10",
+    "title": "Customer Experience Manager",
+    "company": "PhonePe",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/f/fd/PhonePe_Logo.svg",
+    "salary": "8-14 LPA",
+    "applicants": 260,
+    "category": "Management",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "CX",
+      "Team Handling"
+    ],
+    "experience": "2-5 years",
+    "location": "Mumbai, India",
+    "openings": 10
+  },
+  {
+    "jobId": "JOB-MGT-014",
+    "postedAt": "2025-11-24 13:20",
+    "title": "Product Operations Lead",
+    "company": "Paytm",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Paytm_logo.png",
+    "salary": "11-18 LPA",
+    "applicants": 150,
+    "category": "Management",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Product Ops",
+      "Stakeholder Communication"
+    ],
+    "experience": "3-6 years",
+    "location": "Noida, India",
+    "openings": 5
+  },
+  {
+    "jobId": "JOB-MGT-015",
+    "postedAt": "2025-11-25 12:40",
+    "title": "Store Manager",
+    "company": "Reliance Retail",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Reliance_Industries_Logo.svg",
+    "salary": "6-10 LPA",
+    "applicants": 390,
+    "category": "Management",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Store Ops",
+      "Inventory"
+    ],
+    "experience": "1-3 years",
+    "location": "Chennai, India",
+    "openings": 7
+  },
+  {
+    "jobId": "JOB-MGT-016",
+    "postedAt": "2025-11-26 09:00",
+    "title": "Learning & Development Manager",
+    "company": "Coca-Cola",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Coca-Cola_logo.svg",
+    "salary": "14-20 LPA",
+    "applicants": 130,
+    "category": "Management",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Training",
+      "L&D Strategy"
+    ],
+    "experience": "4-7 years",
+    "location": "Mumbai, India",
+    "openings": 1
+  },
+  {
+    "jobId": "JOB-MGT-017",
+    "postedAt": "2025-11-27 11:30",
+    "title": "Marketing Manager",
+    "company": "Nestl\u00e9",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/2/21/Nestle_textlogo.svg",
+    "salary": "12-20 LPA",
+    "applicants": 185,
+    "category": "Management",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Marketing",
+      "Brand Strategy"
+    ],
+    "experience": "3-6 years",
+    "location": "Delhi, India",
+    "openings": 2
+  },
+  {
+    "jobId": "JOB-MGT-018",
+    "postedAt": "2025-11-28 14:40",
+    "title": "Vendor Management Lead",
+    "company": "Zomato",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/7/75/Zomato_logo.svg",
+    "salary": "10-16 LPA",
+    "applicants": 220,
+    "category": "Management",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Vendor Ops",
+      "Negotiation"
+    ],
+    "experience": "2-5 years",
+    "location": "Bengaluru, India",
+    "openings": 4
+  },
+  {
+    "jobId": "JOB-MGT-019",
+    "postedAt": "2025-11-29 16:20",
+    "title": "Administrative Manager",
+    "company": "Aditya Birla Group",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Aditya_Birla_Group_Logo.svg",
+    "salary": "8-14 LPA",
+    "applicants": 145,
+    "category": "Management",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Administration",
+      "Leadership"
+    ],
+    "experience": "3-5 years",
+    "location": "Mumbai, India",
+    "openings": 9
+  },
+  {
+    "jobId": "JOB-MGT-020",
+    "postedAt": "2025-11-30 10:30",
+    "title": "Office Manager",
+    "company": "Canon",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/0/08/Canon_wordmark.svg",
+    "salary": "6-10 LPA",
+    "applicants": 300,
+    "category": "Management",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Office Operations",
+      "Vendor Relations"
+    ],
+    "experience": "2-4 years",
+    "location": "Gurugram, India",
+    "openings": 1
+  },
+  {
+    "jobId": "JOB-IB-001",
+    "postedAt": "2025-11-11 09:20",
+    "title": "Investment Banking Analyst",
+    "company": "Goldman Sachs",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Goldman_Sachs.svg",
+    "salary": "18-25 LPA",
+    "applicants": 340,
+    "category": "Investment Banking",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Financial Modeling",
+      "Valuations",
+      "M&A"
+    ],
+    "experience": "1-3 years",
+    "location": "Bengaluru, India",
+    "openings": 6
+  },
+  {
+    "jobId": "JOB-IB-002",
+    "postedAt": "2025-11-12 10:10",
+    "title": "Equity Research Analyst",
+    "company": "JP Morgan",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/0/0e/JP_Morgan_Chase.svg",
+    "salary": "16-22 LPA",
+    "applicants": 310,
+    "category": "Investment Banking",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Equity Research",
+      "Financial Analysis"
+    ],
+    "experience": "1-3 years",
+    "location": "Mumbai, India",
+    "openings": 10
+  },
+  {
+    "jobId": "JOB-IB-003",
+    "postedAt": "2025-11-13 12:30",
+    "title": "M&A Analyst",
+    "company": "Deloitte",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Deloitte_logo.svg",
+    "salary": "14-20 LPA",
+    "applicants": 280,
+    "category": "Investment Banking",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "M&A",
+      "DCF",
+      "Pitchbooks"
+    ],
+    "experience": "1-3 years",
+    "location": "Gurugram, India",
+    "openings": 4
+  },
+  {
+    "jobId": "JOB-IB-004",
+    "postedAt": "2025-11-14 14:00",
+    "title": "Private Equity Analyst",
+    "company": "Blackstone",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Blackstone_logo.svg",
+    "salary": "20-30 LPA",
+    "applicants": 250,
+    "category": "Investment Banking",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "PE",
+      "Due Diligence",
+      "Modeling"
+    ],
+    "experience": "2-4 years",
+    "location": "Mumbai, India",
+    "openings": 7
+  },
+  {
+    "jobId": "JOB-IB-005",
+    "postedAt": "2025-11-15 15:20",
+    "title": "Risk Analyst",
+    "company": "Barclays",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/6/62/Barclays_logo.svg",
+    "salary": "10-15 LPA",
+    "applicants": 290,
+    "category": "Investment Banking",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Risk Management",
+      "Stress Testing"
+    ],
+    "experience": "1-3 years",
+    "location": "Chennai, India",
+    "openings": 3
+  },
+  {
+    "jobId": "JOB-IB-006",
+    "postedAt": "2025-11-16 11:45",
+    "title": "Portfolio Analyst",
+    "company": "BlackRock",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/2/2a/BlackRock_logo.svg",
+    "salary": "14-22 LPA",
+    "applicants": 260,
+    "category": "Investment Banking",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Portfolio Analysis",
+      "Macro Research"
+    ],
+    "experience": "2-4 years",
+    "location": "Mumbai, India",
+    "openings": 2
+  },
+  {
+    "jobId": "JOB-IB-007",
+    "postedAt": "2025-11-17 12:15",
+    "title": "Fixed Income Analyst",
+    "company": "HSBC",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/5/5a/HSBC_logo_%282018%29.svg",
+    "salary": "12-18 LPA",
+    "applicants": 220,
+    "category": "Investment Banking",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Bonds",
+      "Yield Curves"
+    ],
+    "experience": "1-3 years",
+    "location": "Bengaluru, India",
+    "openings": 9
+  },
+  {
+    "jobId": "JOB-IB-008",
+    "postedAt": "2025-11-18 16:20",
+    "title": "Credit Analyst",
+    "company": "Moody\u2019s",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Moody%27s_logo.svg",
+    "salary": "11-17 LPA",
+    "applicants": 305,
+    "category": "Investment Banking",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Credit Assessment",
+      "Financial Modeling"
+    ],
+    "experience": "1-4 years",
+    "location": "Gurugram, India",
+    "openings": 3
+  },
+  {
+    "jobId": "JOB-IB-009",
+    "postedAt": "2025-11-19 10:40",
+    "title": "Hedge Fund Analyst",
+    "company": "Citadel",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Citadel_Logo.svg",
+    "salary": "22-40 LPA",
+    "applicants": 180,
+    "category": "Investment Banking",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Hedge Funds",
+      "Equities",
+      "Derivatives"
+    ],
+    "experience": "2-5 years",
+    "location": "Hyderabad, India",
+    "openings": 5
+  },
+  {
+    "jobId": "JOB-IB-010",
+    "postedAt": "2025-11-20 11:00",
+    "title": "Quantitative Analyst",
+    "company": "Morgan Stanley",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/8/85/Morgan_Stanley_Logo_2018.svg",
+    "salary": "20-30 LPA",
+    "applicants": 230,
+    "category": "Investment Banking",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Python",
+      "Math Modeling",
+      "Probability"
+    ],
+    "experience": "2-4 years",
+    "location": "Mumbai, India",
+    "openings": 10
+  },
+  {
+    "jobId": "JOB-IB-011",
+    "postedAt": "2025-11-21 15:30",
+    "title": "Trader - Derivatives",
+    "company": "ICICI Securities",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/ICICI_Bank_Logo.svg",
+    "salary": "8-14 LPA",
+    "applicants": 260,
+    "category": "Investment Banking",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Options",
+      "Futures",
+      "Quant"
+    ],
+    "experience": "1-3 years",
+    "location": "Mumbai, India",
+    "openings": 10
+  },
+  {
+    "jobId": "JOB-IB-012",
+    "postedAt": "2025-11-22 12:20",
+    "title": "Equity Dealer",
+    "company": "Angel One",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/4/41/Angel_One_logo.svg",
+    "salary": "5-8 LPA",
+    "applicants": 290,
+    "category": "Investment Banking",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Equity Trading",
+      "NISM"
+    ],
+    "experience": "0-2 years",
+    "location": "Delhi, India",
+    "openings": 10
+  },
+  {
+    "jobId": "JOB-IB-013",
+    "postedAt": "2025-11-23 13:40",
+    "title": "Wealth Management Analyst",
+    "company": "HDFC Bank",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/5/5e/HDFC_Bank_Logo.svg",
+    "salary": "7-12 LPA",
+    "applicants": 310,
+    "category": "Investment Banking",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Wealth Management",
+      "Financial Planning"
+    ],
+    "experience": "1-3 years",
+    "location": "Hyderabad, India",
+    "openings": 4
+  },
+  {
+    "jobId": "JOB-IB-014",
+    "postedAt": "2025-11-24 11:50",
+    "title": "Debt Capital Markets Analyst",
+    "company": "Standard Chartered",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Standard_Chartered_%282021%29.svg",
+    "salary": "14-22 LPA",
+    "applicants": 230,
+    "category": "Investment Banking",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Debt Markets",
+      "Structuring"
+    ],
+    "experience": "2-4 years",
+    "location": "Mumbai, India",
+    "openings": 7
+  },
+  {
+    "jobId": "JOB-IB-015",
+    "postedAt": "2025-11-25 10:30",
+    "title": "Commodities Analyst",
+    "company": "Trafigura",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Trafigura_logo.svg",
+    "salary": "12-18 LPA",
+    "applicants": 200,
+    "category": "Investment Banking",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Commodities",
+      "Forecasting"
+    ],
+    "experience": "1-3 years",
+    "location": "Mumbai, India",
+    "openings": 2
+  },
+  {
+    "jobId": "JOB-IB-016",
+    "postedAt": "2025-11-26 09:40",
+    "title": "Valuations Analyst",
+    "company": "KPMG",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/3/37/KPMG_logo.svg",
+    "salary": "10-16 LPA",
+    "applicants": 320,
+    "category": "Investment Banking",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Valuations",
+      "Excel"
+    ],
+    "experience": "1-3 years",
+    "location": "Gurugram, India",
+    "openings": 10
+  },
+  {
+    "jobId": "JOB-IB-017",
+    "postedAt": "2025-11-27 13:55",
+    "title": "Corporate Banking Analyst",
+    "company": "Citi Bank",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/0/00/Citigroup_logo.svg",
+    "salary": "14-20 LPA",
+    "applicants": 275,
+    "category": "Investment Banking",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Corporate Lending",
+      "Credit"
+    ],
+    "experience": "1-3 years",
+    "location": "Chennai, India",
+    "openings": 2
+  },
+  {
+    "jobId": "JOB-IB-018",
+    "postedAt": "2025-11-28 14:00",
+    "title": "Financial Analyst - Deals",
+    "company": "PwC",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Pwc_logo.svg",
+    "salary": "10-15 LPA",
+    "applicants": 260,
+    "category": "Investment Banking",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Deals",
+      "Valuations",
+      "Modeling"
+    ],
+    "experience": "1-3 years",
+    "location": "Hyderabad, India",
+    "openings": 1
+  },
+  {
+    "jobId": "JOB-IB-019",
+    "postedAt": "2025-11-29 16:20",
+    "title": "Corporate Treasury Analyst",
+    "company": "Aditya Birla Capital",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/9/91/Aditya_Birla_Capital_logo.svg",
+    "salary": "8-13 LPA",
+    "applicants": 300,
+    "category": "Investment Banking",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "Treasury",
+      "Cash Flow"
+    ],
+    "experience": "1-3 years",
+    "location": "Mumbai, India",
+    "openings": 5
+  },
+  {
+    "jobId": "JOB-IB-020",
+    "postedAt": "2025-11-30 17:00",
+    "title": "Associate - Investment Banking",
+    "company": "Ernst & Young (EY)",
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/7/71/EY_logo_2019.svg",
+    "salary": "18-28 LPA",
+    "applicants": 210,
+    "category": "Investment Banking",
+    "tags": [
+      "Full Time"
+    ],
+    "skills": [
+      "M&A",
+      "Pitchbooks",
+      "Financial Modeling"
+    ],
+    "experience": "3-5 years",
+    "location": "Bengaluru, India",
+    "openings": 10
+  }
+]

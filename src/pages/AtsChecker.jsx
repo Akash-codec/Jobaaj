@@ -142,7 +142,6 @@ const info = [
     desc: "Get clear steps to build an ATS friendly resume and boost your chances of landing interviews.",
   },
 ];
-const ladyImg = "/path/to/your-lady-image.png";
 const AtsChecker = () => (
   <div>
     {/* Hero Section */}

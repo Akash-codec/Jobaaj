@@ -1,48 +1,38 @@
+// src/redux/jobSlice.js
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
-// ----------- Async Thunk: Fetch Jobs -----------
+// Fetch jobs from JSON
 export const fetchJobs = createAsyncThunk(
   "jobs/fetchJobs",
   async () => {
-    const res = await axios.get("https://api.escuelajs.co/api/v1/products");
-    return res.data;
+    const response = await axios.get("/jobs.json");
+    return response.data;
   }
 );
 
-// ----------- Slice -----------
-const JobSlice = createSlice({
+const jobSlice = createSlice({
   name: "jobs",
   initialState: {
-    jobList: [],
+    jobs: [],
     loading: false,
     error: null,
   },
-  reducers: {
-    // simple reducer example
-    clearJobs: (state) => {
-      state.jobList = [];
-    },
-  },
+  reducers: {},
   extraReducers: (builder) => {
     builder
       .addCase(fetchJobs.pending, (state) => {
         state.loading = true;
-        state.error = null;
       })
       .addCase(fetchJobs.fulfilled, (state, action) => {
         state.loading = false;
-        state.jobList = action.payload; // store jobs
+        state.jobs = action.payload; // full job array
       })
-      .addCase(fetchJobs.rejected, (state) => {
+      .addCase(fetchJobs.rejected, (state, action) => {
         state.loading = false;
-        state.error = "Failed to fetch jobs";
+        state.error = action.error.message;
       });
   },
 });
 
-// Export actions
-export const { clearJobs } = JobSlice.actions;
-
-// Export reducer
-export default JobSlice.reducer;
+export default jobSlice.reducer;

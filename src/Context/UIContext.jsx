@@ -14,6 +14,7 @@ export default function UIProvider({ children }) {
   const [mobileServices, setMobileServices] = useState(false);
   const [mobileOthers, setMobileOthers] = useState(false);
 
+  const [searchMode, setSearchMode] = useState("AI");
   return (
     <UIContext.Provider
       value={{
@@ -33,6 +34,8 @@ export default function UIProvider({ children }) {
         setMobileServices,
         mobileOthers,
         setMobileOthers,
+        searchMode,
+        setSearchMode,
       }}
     >
       {children}
