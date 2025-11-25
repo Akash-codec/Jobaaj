@@ -1,7 +1,7 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import ServiceComponet from "../Components/ServiceComponet";
 import YourInfo from "../Components/YourInfo";
-import LeadingCompanies from "../Components/LeadingCompanies";
+import BrandMarquee from "../Components/BrandMarquee";
 
 const companies = [
   { name: "Deloitte", logo: "/All job-sheeker/Deloitte.png" },
@@ -169,7 +169,7 @@ const AllJobSheeker = () => {
       {/* GSAP LOGO Marquee */}
       <div className="bg-[#f5f8fc] py-8">
         <h1 className="text-xl text-center my-8 font-bold mb-6">Get Placed in Top MNCs</h1>
-        <LeadingCompanies logos={logos} />
+        <BrandMarquee logos={logos} />
       </div>
 
       {/* Resume Writing & LinkedIn Optimisation Section */}

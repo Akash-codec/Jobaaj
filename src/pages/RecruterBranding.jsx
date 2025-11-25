@@ -1,5 +1,5 @@
 import React from 'react'
-import LeadingCompanies from '../Components/LeadingCompanies'
+import BrandMarquee from '../Components/BrandMarquee'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 const logos = [
@@ -179,7 +179,7 @@ const RecruterBranding = () => {
 
 {/* cursole */}
  <div className="w-full my-10 py-6 bg-white">
- <LeadingCompanies logos={logos} />  
+ <BrandMarquee logos={logos} />  
  </div>
  {/*Employer Branding  */}
 <div className="flex flex-col items-center w-full px-6 py-10 bg-white">
