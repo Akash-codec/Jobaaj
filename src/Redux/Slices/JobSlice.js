@@ -15,10 +15,18 @@ const jobSlice = createSlice({
   name: "jobs",
   initialState: {
     jobs: [],
+    categorizedJob: [],
     loading: false,
     error: null,
   },
-  reducers: {},
+  reducers: { 
+    filterJobsByCategory: (state, action) => {
+      const category = action.payload.toLowerCase();
+      state.categorizedJob = state.jobs.filter(
+        (job) => job.category.toLowerCase() === category
+      );
+    },
+  },
   extraReducers: (builder) => {
     builder
       .addCase(fetchJobs.pending, (state) => {
@@ -35,4 +43,5 @@ const jobSlice = createSlice({
   },
 });
 
+export const { filterJobsByCategory } = jobSlice.actions;
 export default jobSlice.reducer;
