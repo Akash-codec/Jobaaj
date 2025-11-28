@@ -14,9 +14,9 @@ const slides = [
       "Professionals have secured high-paying roles through our job search portal",
     cta: { type: "button", onClick: null, label: "Search Job" }, // keep as button, no handler
     rightImage:
-      "https://cdnimg.nishtyainfotech.com/fit-in/822x439/content/jobaaj/static-assets/index/product_image_1.webp",
+      "/Home/GoodLife/product_image_1.webp",
     rightCaption: "Jobaaj connects talent with top companies",
-    logo: "https://cdn.nishtyainfotech.com/content/jobaaj/static-assets/index/jobaaj_tab_logo.webp",
+    logo: "/Navbar/logoNew.webp",
   },
   {
     key: "stories",
@@ -33,9 +33,9 @@ const slides = [
       label: "Explore now",
     },
     rightImage:
-      "https://cdnimg.nishtyainfotech.com/fit-in/822x439/content/jobaaj/static-assets/index/product_image_3.webp",
+      "/Home/GoodLife/product_image_3.webp",
     rightCaption: "Jobaaj News brings impactful updates to keep you informed",
-    logo: "https://cdn.nishtyainfotech.com/content/jobaaj/static-assets/index/jobaaj_news_tab_logo.webp",
+    logo: "/Home/GoodLife/jobaaj_news_tab_logo.webp",
   },
   {
     key: "learnings",
@@ -52,9 +52,9 @@ const slides = [
       label: "Start Learning",
     },
     rightImage:
-      "https://cdnimg.nishtyainfotech.com/fit-in/822x439/content/jobaaj/static-assets/index/product_image_2.webp",
+      "/Home/GoodLife/product_image_2.webp",
     rightCaption: "Jobaaj Learnings delivers certified, job-ready courses",
-    logo: "https://cdn.nishtyainfotech.com/content/jobaaj/static-assets/index/jobaaj_learnings_tab_logo.webp",
+    logo: "/footer/d-logo.webp",
   },
   {
     key: "procapitas",
@@ -71,10 +71,10 @@ const slides = [
       label: "Explore now",
     },
     rightImage:
-      "https://cdnimg.nishtyainfotech.com/fit-in/822x439/content/jobaaj/static-assets/index/product_image_4.webp",
+      "/Home/GoodLife/product_image_4.webp",
     rightCaption:
       "ProCapitas offers expert financial updates for smarter money decisions",
-    logo: "https://cdn.nishtyainfotech.com/content/jobaaj/static-assets/index/procapitas_tab_logo.webp",
+    logo: "/footer/procapitas.webp",
   },
 ];
 const GoodLife = () => {
@@ -116,7 +116,8 @@ const GoodLife = () => {
   }, [selectedIndex, emblaLeftApi, emblaRightApi]);
   return (
     <section className="mt-15 max-w-7xl mx-auto relative">
-        <h2 className="text-[25px] lg:text-[35px] max-w-lg font-bold">
+        <div className="p-4">
+          <h2 className="text-[25px] lg:text-[35px] max-w-lg font-bold">
           Good Life Begins With A Good Company
         </h2>
         <p className="text-gray-400 max-w-4xl ">
@@ -131,7 +132,8 @@ const GoodLife = () => {
           right, because a good life begins with the right company and the right
           career path.
         </p>
-        <div className="flex flex-col lg:flex-row mt-8 justify-between pb-5 gap-5">
+        </div>
+        <div className="flex flex-col lg:flex-row mt-2 justify-between pb-5 gap-5">
           {/* LEFT: Slider cards */}
           <div className="w-full lg:w-1/3 p-5">
             {/* mobile collapse indicators */}
@@ -261,7 +263,7 @@ const GoodLife = () => {
           </div>
           {/* desktop tab icons row */}
         </div>
-        <div className="hidden md:flex justify-around w-full mt-6 gap-6">
+        <div className="hidden md:flex justify-around w-full mt-4 gap-6">
           {slides.map((s, idx) => (
             <div
               key={s.key + "-tab"}
@@ -274,7 +276,6 @@ const GoodLife = () => {
                 src={s.logo}
                 alt={`${s.title} tab`}
                 width="90"
-                height="55"
                 loading="lazy"
               />
             </div>

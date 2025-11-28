@@ -1,9 +1,8 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef } from "react";
 import { ChevronRight, ChevronLeft } from "lucide-react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
-import { useDispatch, useSelector } from "react-redux";
-import { fetchJobs } from "../../Redux/Slices/JobSlice.js";
+import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
 const RightRole = () => {
@@ -17,12 +16,7 @@ const RightRole = () => {
     },
     [autoplay.current]
   );
-  const dispatch = useDispatch();
   const { jobs, loading } = useSelector((state) => state.jobs);
-
-  useEffect(() => {
-    dispatch(fetchJobs());
-  }, [dispatch]);
 
   if (loading) return null;
   if (!jobs || jobs.length === 0) return null;
@@ -37,7 +31,6 @@ const RightRole = () => {
 
   // Convert to array for mapping
   const categories = Object.entries(categoryMap);
-  console.log(categories);
   return (
     <section className="mt-15 max-w-7xl mx-auto relative px-2">
       <div className="relative">

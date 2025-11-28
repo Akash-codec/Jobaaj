@@ -1,10 +1,10 @@
-import React from "react";
 import PremiumBanner from "../Components/ui/PremiumBanner";
 import BrandMarquee from "../Components/BrandMarquee";
 import HeroSection from "../Components/Home/HeroSection.jsx";
 import JobLearning from "../Components/Home/JobLearning.jsx";
 import RightRole from "../Components/Home/RightRole.jsx";
 import GoodLife from "../Components/Home/GoodLife.jsx";
+import ExploreCompanies from "../Components/Home/ExploreCompanies.jsx";
 
 const logos = [
   { src: "/Home/Companies/accenture.webp", alt: "Accenture logo" },
@@ -13,10 +13,7 @@ const logos = [
   { src: "/Home/Companies/kpmg.webp", alt: "KPMG logo" },
   { src: "/Home/Companies/hdfc.webp", alt: "HDFC Bank logo" },
   { src: "/Home/Companies/kotak.webp", alt: "Kotak Mahindra Bank logo" },
-  {
-    src: "/Home/Companies/bcg.webp",
-    alt: "Boston Consulting Group (BCG) logo",
-  },
+  { src: "/Home/Companies/bcg.webp", alt: "Boston Consulting Group (BCG) logo",},
   { src: "/Home/Companies/grantthornton.webp", alt: "Grant Thornton logo" },
   { src: "/Home/Companies/sap.webp", alt: "SAP logo" },
   { src: "/Home/Companies/infosis.webp", alt: "Infosys logo" },
@@ -53,6 +50,9 @@ export default function Home() {
 
       {/* Good life good company */}
       <GoodLife/>
+      
+      {/* explore companies */}
+      <ExploreCompanies/>
       
     </>
   );
